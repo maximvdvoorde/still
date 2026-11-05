@@ -1,0 +1,10 @@
+{
+  "name": "still",
+  "private": true,
+  "type": "module",
+  "description": "Tooling only (tests); the game itself uses no packages and no build step",
+  "scripts": {
+    "start": "node tools/serve.js",
+    "test": "node --test"
+  }
+}

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <!-- A goal piece resting on its target, on the board. Kept inside the middle 80% for masked icons. -->
+  <rect width="512" height="512" fill="#ECE6DC"/>
+  <g fill="rgb(138,131,123)" fill-opacity="0.38">
+    <circle cx="116" cy="116" r="7"/><circle cx="256" cy="116" r="7"/><circle cx="396" cy="116" r="7"/>
+    <circle cx="116" cy="256" r="7"/><circle cx="396" cy="256" r="7"/>
+    <circle cx="116" cy="396" r="7"/><circle cx="256" cy="396" r="7"/><circle cx="396" cy="396" r="7"/>
+  </g>
+  <rect x="172" y="172" width="168" height="168" rx="48" fill="#C0704F" fill-opacity="0.08" stroke="#C0704F" stroke-opacity="0.6" stroke-width="7"/>
+  <rect x="186" y="186" width="140" height="140" rx="36" fill="#C0704F"/>
+  <rect x="243" y="243" width="26" height="26" rx="8" fill="#F6F1E9"/>
+</svg>

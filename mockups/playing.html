@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Still – playing</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<style>
+body{margin:0}
+a{color:#4A4642}a:hover{color:#2F2C29}
+</style>
+</helmet>
+<div style="width: 390px; height: 844px; box-sizing: border-box; background: #F6F1E9; font-family: ui-rounded, -apple-system, system-ui, sans-serif; display: flex; flex-direction: column; align-items: center; padding: 80px 24px 56px">
+<div style="display: flex; flex-direction: column; align-items: center; gap: 10px">
+<p style="margin: 0; font-size: 30px; font-weight: 500; line-height: 1; color: #4A4642">12</p>
+<div role="img" aria-label="Difficulty 3 of 5" style="display: flex; align-items: center; gap: 6px">
+<div style="width: 7px; height: 7px; border-radius: 50%; background: #C0704F"></div>
+<div style="width: 7px; height: 7px; border-radius: 50%; background: #C0704F"></div>
+<div style="width: 7px; height: 7px; border-radius: 50%; background: #C0704F"></div>
+<div style="width: 7px; height: 7px; border-radius: 50%; box-sizing: border-box; border: 1.5px solid rgba(192,112,79,0.5)"></div>
+<div style="width: 7px; height: 7px; border-radius: 50%; box-sizing: border-box; border: 1.5px solid rgba(192,112,79,0.5)"></div>
+</div>
+</div>
+<div style="flex: 1"></div>
+<div role="img" aria-label="Puzzle board, 6 by 6, two pieces to bring home" style="width: 342px; height: 342px; border-radius: 18px; background-color: #ECE6DC; background-image: radial-gradient(circle, rgba(138,131,123,0.38) 1.5px, transparent 2px); background-size: 57px 57px; display: grid; grid-template-columns: repeat(6, minmax(0, 1fr)); grid-template-rows: repeat(6, minmax(0, 1fr))">
+<div style="grid-area: 1 / 1; place-self: center; width: 43px; height: 43px; border-radius: 11px; background: #A57A22"></div>
+<div style="grid-area: 3 / 6; place-self: center; width: 43px; height: 43px; border-radius: 11px; background: #9A6A8C"></div>
+<div style="grid-area: 5 / 4; place-self: center; width: 43px; height: 43px; border-radius: 11px; background: #5F7F76"></div>
+<div style="grid-area: 2 / 2; place-self: center; width: 43px; height: 43px; border-radius: 11px; box-sizing: border-box; border: 2px solid rgba(192,112,79,0.6); background: rgba(192,112,79,0.08)"></div>
+<div style="grid-area: 4 / 5; place-self: center; width: 43px; height: 43px; border-radius: 11px; box-sizing: border-box; border: 2px solid rgba(91,127,160,0.6); background: rgba(91,127,160,0.08)"></div>
+<div style="grid-area: 6 / 2; place-self: center; width: 43px; height: 43px; border-radius: 11px; background: #C0704F; box-shadow: 0 0 0 5px rgba(192,112,79,0.18); display: flex; align-items: center; justify-content: center"><div style="width: 9px; height: 9px; border-radius: 3px; background: #F6F1E9"></div></div>
+<div style="grid-area: 1 / 5; place-self: center; width: 43px; height: 43px; border-radius: 11px; background: #5B7FA0; display: flex; align-items: center; justify-content: center"><div style="width: 9px; height: 9px; border-radius: 3px; background: #F6F1E9"></div></div>
+</div>
+<div style="flex: 1.3"></div>
+<div style="display: flex; gap: 40px; justify-content: center">
+<button aria-label="Undo" style="width: 44px; height: 44px; border: none; background: none; padding: 0; display: flex; align-items: center; justify-content: center; color: #8A837B"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 6 5 10l4 4"/><path d="M5 10h9a5 5 0 0 1 0 10h-2"/></svg></button>
+<button aria-label="Restart" style="width: 44px; height: 44px; border: none; background: none; padding: 0; display: flex; align-items: center; justify-content: center; color: #8A837B"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12a8 8 0 1 0 2.4-5.7"/><path d="M4 4v4h4"/></svg></button>
+<button aria-label="Menu" style="width: 44px; height: 44px; border: none; background: none; padding: 0; display: flex; align-items: center; justify-content: center; color: #8A837B"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" aria-hidden="true"><path d="M6 9h12M6 15h12"/></svg></button>
+</div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":390,"height":844}}'>
+class Component extends DCLogic {
+renderVals() {
+return {};
+}
+}
+</script>
+</body>
+</html>

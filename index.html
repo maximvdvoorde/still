@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover">
+<title>Still</title>
+<meta name="theme-color" content="#F6F1E9">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Still">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+<link rel="icon" href="icons/icon-192.png">
+<script>
+  // Set the theme before the first paint, so Dusk never flashes light.
+  (function () {
+    var theme = null;
+    try { theme = localStorage.getItem('still.theme'); } catch (error) { /* use the phone's setting */ }
+    if (theme !== 'paper' && theme !== 'dusk') {
+      theme = matchMedia('(prefers-color-scheme: dark)').matches ? 'dusk' : 'paper';
+    }
+    document.documentElement.dataset.theme = theme;
+    document.querySelector('meta[name="theme-color"]').content = theme === 'dusk' ? '#212427' : '#F6F1E9';
+  }());
+</script>
+<link rel="stylesheet" href="style.css">
+<script type="module" src="src/ui.js"></script>
+</head>
+<body>
+<main class="game">
+  <header class="level-header">
+    <p class="level-number"></p>
+    <div class="difficulty" role="img"></div>
+  </header>
+
+  <div class="spacer-top"></div>
+  <div class="board-slot"></div>
+  <div class="spacer-bottom"></div>
+
+  <div class="actions">
+    <div class="tools">
+      <button class="icon-button" id="undo" aria-label="Undo">
+        <svg width="24" height="24" viewBox="0 0 24 24" aria-hidden="true"><path d="M9 6 5 10l4 4"/><path d="M5 10h9a5 5 0 0 1 0 10h-2"/></svg>
+      </button>
+      <button class="icon-button" id="restart" aria-label="Restart">
+        <svg width="24" height="24" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12a8 8 0 1 0 2.4-5.7"/><path d="M4 4v4h4"/></svg>
+      </button>
+      <button class="icon-button" id="menu" aria-label="Menu">
+        <svg width="24" height="24" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 9h12M6 15h12"/></svg>
+      </button>
+    </div>
+    <button class="icon-button next" id="next" aria-label="Next level">
+      <svg width="28" height="28" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14"/><path d="M13 6l6 6-6 6"/></svg>
+    </button>
+  </div>
+</main>
+
+<section class="overview" aria-label="Levels">
+  <header class="overview-header">
+    <button class="icon-button" id="overview-back" aria-label="Back to game">
+      <svg width="24" height="24" viewBox="0 0 24 24" aria-hidden="true"><path d="M14 6l-6 6 6 6"/></svg>
+    </button>
+    <h1>Levels</h1>
+    <span class="overview-count"></span>
+  </header>
+  <div class="spacer-top"></div>
+  <div class="overview-sections"></div>
+  <div class="spacer-bottom"></div>
+</section>
+
+<div class="sheet-layer">
+  <div class="sheet" role="dialog" aria-label="Menu">
+    <button class="sheet-row" id="sheet-levels">Levels</button>
+    <div class="sheet-row">
+      <span>Theme</span>
+      <div class="theme-options">
+        <button class="theme-option" data-theme-option="auto">Auto</button>
+        <button class="theme-option" data-theme-option="paper">Paper</button>
+        <button class="theme-option" data-theme-option="dusk">Dusk</button>
+      </div>
+    </div>
+    <p class="sheet-row">Voor Anna &lt;3</p>
+  </div>
+</div>
+</body>
+</html>

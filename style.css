@@ -1,0 +1,433 @@
+:root {
+  --background: #F6F1E9;
+  --board: #ECE6DC;
+  --grid-dot: rgba(138, 131, 123, 0.38);
+  --text-primary: #4A4642;
+  --text-secondary: #6F6862;
+  --icons: #8A837B;
+  --accent: 192 112 79;
+  --next-icon: #A0573A;
+  --level-circle: 95 127 118;
+  --unplayed: rgba(138, 131, 123, 0.45);
+  --rule: rgba(138, 131, 123, 0.2);
+  --scrim: rgba(74, 70, 66, 0.25);
+
+  /* Piece colours as RGB channels, so they can be used at any opacity. */
+  --terracotta: 192 112 79;
+  --blue: 91 127 160;
+  --rose: 188 102 112;
+  --ochre: 165 122 34;
+  --sage: 95 127 118;
+  --plum: 154 106 140;
+
+  /* Every size in the spec is given for a 342 pt board and scales with it. */
+  --board-size: min(100vw - 48px, 100vh - 234px, 480px);
+  --board-size: min(100vw - 48px, 100dvh - 234px, 480px);
+  --cell: calc(var(--board-size) / 6);
+  --pt: calc(var(--board-size) / 342);
+}
+
+:root[data-theme="dusk"] {
+  --background: #212427;
+  --board: #2C3034;
+  --grid-dot: rgba(140, 134, 124, 0.35);
+  --text-primary: #E2DCD3;
+  --text-secondary: #A9A39A;
+  --icons: #8F8A82;
+  --accent: 208 138 108;
+  --next-icon: #D08A6C;
+  --level-circle: 127 161 150;
+  --unplayed: rgba(140, 134, 124, 0.45);
+  --rule: rgba(140, 134, 124, 0.2);
+  --scrim: rgba(20, 22, 24, 0.45);
+
+  --terracotta: 208 138 108;
+  --blue: 127 160 192;
+  --rose: 201 128 138;
+  --ochre: 194 154 78;
+  --sage: 127 161 150;
+  --plum: 181 138 170;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  position: fixed;
+  inset: 0;
+  overflow: hidden;
+  overscroll-behavior: none;
+  background: var(--background);
+  color: var(--text-primary);
+  font-family: ui-rounded, -apple-system, system-ui, sans-serif;
+  touch-action: none;
+  -webkit-user-select: none;
+  user-select: none;
+  -webkit-touch-callout: none;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-text-size-adjust: 100%;
+}
+
+button {
+  font: inherit;
+  color: inherit;
+}
+
+.game {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: calc(env(safe-area-inset-top) + 33px) 24px calc(env(safe-area-inset-bottom) + 22px);
+}
+
+.level-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 14px;
+}
+
+.level-number {
+  margin: 0;
+  min-height: 30px;
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 1;
+}
+
+.difficulty {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.dot {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  border: 1.5px solid rgb(var(--accent) / 0.5);
+}
+
+.dot.filled {
+  border: none;
+  background: rgb(var(--accent));
+}
+
+.spacer-top {
+  flex: 1;
+}
+
+.spacer-bottom {
+  flex: 1.3;
+}
+
+.board-slot {
+  position: relative;
+  flex: none;
+  width: var(--board-size);
+  height: var(--board-size);
+}
+
+.board {
+  position: absolute;
+  inset: 0;
+  border-radius: calc(18 * var(--pt));
+  background-color: var(--board);
+  background-image: radial-gradient(circle, var(--grid-dot) calc(1.5 * var(--pt)), transparent calc(2 * var(--pt)));
+  background-size: var(--cell) var(--cell);
+  transition: opacity 500ms;
+}
+
+.board.solved {
+  opacity: 0.5;
+}
+
+/* Pieces and targets fill their cell and centre their visible square in it. */
+.cell-item {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: var(--cell);
+  height: var(--cell);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: translate(calc(var(--col) * var(--cell)), calc(var(--row) * var(--cell)));
+}
+
+.piece {
+  transition: transform 0ms cubic-bezier(0.22, 0.61, 0.36, 1);
+}
+
+.tile {
+  width: 75%;
+  height: 75%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: calc(11 * var(--pt));
+  background: rgb(var(--color));
+  transition: box-shadow 300ms;
+  box-shadow: 0 0 0 0 rgb(var(--color) / 0.18);
+}
+
+.tile.halo {
+  box-shadow: 0 0 0 calc(5 * var(--pt)) rgb(var(--color) / 0.18);
+}
+
+/* Larger than a piece, so a target stays visible around whatever stands on it. */
+.target-mark {
+  width: calc(51 * var(--pt));
+  height: calc(51 * var(--pt));
+  border: calc(2 * var(--pt)) solid rgb(var(--color) / 0.6);
+  border-radius: calc(15 * var(--pt));
+  background: rgb(var(--color) / 0.08);
+}
+
+.goal-mark {
+  width: calc(8 * var(--pt));
+  height: calc(8 * var(--pt));
+  border-radius: calc(2.5 * var(--pt));
+  background: var(--background);
+}
+
+.terracotta { --color: var(--terracotta); }
+.blue { --color: var(--blue); }
+.rose { --color: var(--rose); }
+.ochre { --color: var(--ochre); }
+.sage { --color: var(--sage); }
+.plum { --color: var(--plum); }
+
+.actions {
+  display: grid;
+  justify-items: center;
+}
+
+.tools,
+.next {
+  grid-area: 1 / 1;
+}
+
+.tools {
+  display: flex;
+  gap: 40px;
+}
+
+.icon-button {
+  flex: none;
+  width: 44px;
+  height: 44px;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  background: none;
+  color: var(--icons);
+}
+
+.icon-button svg {
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.5;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.next {
+  color: var(--next-icon);
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 300ms;
+}
+
+.game.solved .tools {
+  visibility: hidden;
+}
+
+.game.solved .next {
+  opacity: 1;
+  visibility: visible;
+}
+
+/* The overview and the menu sheet fade in over the game. */
+.overview,
+.sheet-layer {
+  position: fixed;
+  inset: 0;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 200ms, visibility 0ms 200ms;
+}
+
+.overview.open,
+.sheet-layer.open {
+  opacity: 1;
+  visibility: visible;
+  transition: opacity 200ms;
+}
+
+.overview {
+  display: flex;
+  flex-direction: column;
+  padding: calc(env(safe-area-inset-top) + 17px) 24px calc(env(safe-area-inset-bottom) + 22px);
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  touch-action: pan-y;
+  -webkit-overflow-scrolling: touch;
+  background: var(--background);
+}
+
+.overview-header {
+  flex: none;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.overview-header h1 {
+  margin: 0;
+  font-size: 22px;
+  font-weight: 500;
+}
+
+.overview-count {
+  margin-left: auto;
+  font-size: 13px;
+  color: var(--text-secondary);
+}
+
+.overview-sections {
+  flex: none;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  padding: 24px 12px;
+}
+
+.overview-section {
+  display: flex;
+  flex-direction: column;
+  gap: 13px;
+}
+
+.section-heading {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.section-heading .difficulty {
+  flex: none;
+}
+
+.section-rule {
+  flex: 1;
+  height: 1px;
+  background: var(--rule);
+}
+
+.markers {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  row-gap: 14px;
+  justify-items: center;
+}
+
+/* A 44 pt tap area around the 38 pt circle. */
+.marker {
+  width: 44px;
+  height: 44px;
+  padding: 3px;
+  border: none;
+  background: none;
+}
+
+.marker-circle {
+  display: block;
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  border: 1.5px solid var(--unplayed);
+}
+
+.marker.solved .marker-circle {
+  border: none;
+  background: rgb(var(--level-circle));
+}
+
+.marker.up-next .marker-circle {
+  border: 2.5px solid rgb(var(--level-circle));
+  box-shadow: 0 0 0 5px rgb(var(--level-circle) / 0.15);
+}
+
+.sheet-layer {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  background: var(--scrim);
+}
+
+.sheet {
+  width: 100%;
+  max-width: 480px;
+  padding: 12px 24px calc(env(safe-area-inset-bottom) + 20px);
+  border-radius: 18px 18px 0 0;
+  background: var(--board);
+}
+
+.sheet-row {
+  width: 100%;
+  min-height: 52px;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: none;
+  background: none;
+  font-size: 17px;
+  text-align: left;
+}
+
+.theme-options {
+  display: flex;
+  gap: 4px;
+}
+
+.theme-option {
+  min-width: 56px;
+  height: 44px;
+  padding: 0 8px;
+  border: none;
+  border-radius: 11px;
+  background: none;
+  color: var(--text-secondary);
+  font-size: 15px;
+}
+
+.theme-option.chosen {
+  background: var(--background);
+  color: var(--text-primary);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .board,
+  .tile,
+  .next,
+  .overview,
+  .sheet-layer,
+  .overview.open,
+  .sheet-layer.open {
+    transition-duration: 0ms;
+    transition-delay: 0ms;
+  }
+}
