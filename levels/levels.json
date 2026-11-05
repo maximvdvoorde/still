@@ -30,10 +30,122 @@
       "difficulty": 1
     },
     {
-      "id": "gen-008",
+      "id": "gen-051",
       "source": "generated",
       "status": "approved",
       "order": 3,
+      "pieces": [
+        { "id": "g1", "kind": "goal", "color": "terracotta", "pos": [4,0], "target": [1,3] },
+        { "id": "h1", "kind": "helper", "color": "ochre", "pos": [1,1] },
+        { "id": "h2", "kind": "helper", "color": "sage", "pos": [1,5] },
+        { "id": "h3", "kind": "helper", "color": "rose", "pos": [0,0] }
+      ],
+      "minMoves": 3,
+      "difficulty": 1
+    },
+    {
+      "id": "gen-052",
+      "source": "generated",
+      "status": "approved",
+      "order": 4,
+      "pieces": [
+        { "id": "g1", "kind": "goal", "color": "terracotta", "pos": [0,5], "target": [4,2] },
+        { "id": "h1", "kind": "helper", "color": "ochre", "pos": [4,4] },
+        { "id": "h2", "kind": "helper", "color": "sage", "pos": [5,5] },
+        { "id": "h3", "kind": "helper", "color": "rose", "pos": [4,0] }
+      ],
+      "minMoves": 3,
+      "difficulty": 1
+    },
+    {
+      "id": "gen-053",
+      "source": "generated",
+      "status": "approved",
+      "order": 5,
+      "pieces": [
+        { "id": "g1", "kind": "goal", "color": "terracotta", "pos": [0,0], "target": [2,2] },
+        { "id": "h1", "kind": "helper", "color": "ochre", "pos": [2,4] },
+        { "id": "h2", "kind": "helper", "color": "sage", "pos": [3,0] },
+        { "id": "h3", "kind": "helper", "color": "rose", "pos": [2,1] }
+      ],
+      "minMoves": 3,
+      "difficulty": 1
+    },
+    {
+      "id": "gen-054",
+      "source": "generated",
+      "status": "approved",
+      "order": 6,
+      "pieces": [
+        { "id": "g1", "kind": "goal", "color": "terracotta", "pos": [1,1], "target": [3,2] },
+        { "id": "h1", "kind": "helper", "color": "ochre", "pos": [2,1] },
+        { "id": "h2", "kind": "helper", "color": "sage", "pos": [5,1] },
+        { "id": "h3", "kind": "helper", "color": "rose", "pos": [3,3] }
+      ],
+      "minMoves": 3,
+      "difficulty": 1
+    },
+    {
+      "id": "gen-055",
+      "source": "generated",
+      "status": "approved",
+      "order": 7,
+      "pieces": [
+        { "id": "g1", "kind": "goal", "color": "terracotta", "pos": [4,2], "target": [4,3] },
+        { "id": "h1", "kind": "helper", "color": "ochre", "pos": [3,2] },
+        { "id": "h2", "kind": "helper", "color": "sage", "pos": [3,5] },
+        { "id": "h3", "kind": "helper", "color": "rose", "pos": [5,4] }
+      ],
+      "minMoves": 3,
+      "difficulty": 1
+    },
+    {
+      "id": "gen-056",
+      "source": "generated",
+      "status": "approved",
+      "order": 8,
+      "pieces": [
+        { "id": "g1", "kind": "goal", "color": "terracotta", "pos": [1,2], "target": [2,2] },
+        { "id": "h1", "kind": "helper", "color": "ochre", "pos": [0,3] },
+        { "id": "h2", "kind": "helper", "color": "sage", "pos": [4,3] },
+        { "id": "h3", "kind": "helper", "color": "rose", "pos": [3,1] }
+      ],
+      "minMoves": 3,
+      "difficulty": 1
+    },
+    {
+      "id": "gen-057",
+      "source": "generated",
+      "status": "approved",
+      "order": 9,
+      "pieces": [
+        { "id": "g1", "kind": "goal", "color": "terracotta", "pos": [4,1], "target": [2,3] },
+        { "id": "h1", "kind": "helper", "color": "ochre", "pos": [1,0] },
+        { "id": "h2", "kind": "helper", "color": "sage", "pos": [1,2] },
+        { "id": "h3", "kind": "helper", "color": "rose", "pos": [2,4] }
+      ],
+      "minMoves": 3,
+      "difficulty": 1
+    },
+    {
+      "id": "gen-058",
+      "source": "generated",
+      "status": "approved",
+      "order": 10,
+      "pieces": [
+        { "id": "g1", "kind": "goal", "color": "terracotta", "pos": [4,2], "target": [4,3] },
+        { "id": "h1", "kind": "helper", "color": "ochre", "pos": [5,4] },
+        { "id": "h2", "kind": "helper", "color": "sage", "pos": [3,1] },
+        { "id": "h3", "kind": "helper", "color": "rose", "pos": [3,5] }
+      ],
+      "minMoves": 3,
+      "difficulty": 1
+    },
+    {
+      "id": "gen-008",
+      "source": "generated",
+      "status": "approved",
+      "order": 11,
       "pieces": [
         { "id": "g1", "kind": "goal", "color": "terracotta", "pos": [5,2], "target": [3,2] },
         { "id": "h1", "kind": "helper", "color": "ochre", "pos": [1,1] },
@@ -44,38 +156,10 @@
       "difficulty": 1
     },
     {
-      "id": "gen-009",
-      "source": "generated",
-      "status": "approved",
-      "order": 4,
-      "pieces": [
-        { "id": "g1", "kind": "goal", "color": "terracotta", "pos": [2,1], "target": [4,2] },
-        { "id": "h1", "kind": "helper", "color": "ochre", "pos": [5,1] },
-        { "id": "h2", "kind": "helper", "color": "sage", "pos": [4,1] },
-        { "id": "h3", "kind": "helper", "color": "rose", "pos": [4,4] }
-      ],
-      "minMoves": 3,
-      "difficulty": 1
-    },
-    {
-      "id": "gen-010",
-      "source": "generated",
-      "status": "approved",
-      "order": 5,
-      "pieces": [
-        { "id": "g1", "kind": "goal", "color": "terracotta", "pos": [1,2], "target": [2,1] },
-        { "id": "h1", "kind": "helper", "color": "ochre", "pos": [4,1] },
-        { "id": "h2", "kind": "helper", "color": "sage", "pos": [1,0] },
-        { "id": "h3", "kind": "helper", "color": "rose", "pos": [0,1] }
-      ],
-      "minMoves": 3,
-      "difficulty": 1
-    },
-    {
       "id": "gen-011",
       "source": "generated",
       "status": "approved",
-      "order": 6,
+      "order": 12,
       "pieces": [
         { "id": "g1", "kind": "goal", "color": "terracotta", "pos": [1,1], "target": [4,3] },
         { "id": "h1", "kind": "helper", "color": "ochre", "pos": [5,3] },
@@ -89,7 +173,7 @@
       "id": "gen-012",
       "source": "generated",
       "status": "approved",
-      "order": 7,
+      "order": 13,
       "pieces": [
         { "id": "g1", "kind": "goal", "color": "terracotta", "pos": [3,1], "target": [1,3] },
         { "id": "h1", "kind": "helper", "color": "ochre", "pos": [4,4] },
@@ -103,7 +187,7 @@
       "id": "gen-013",
       "source": "generated",
       "status": "approved",
-      "order": 8,
+      "order": 14,
       "pieces": [
         { "id": "g1", "kind": "goal", "color": "terracotta", "pos": [1,1], "target": [3,1] },
         { "id": "h1", "kind": "helper", "color": "ochre", "pos": [2,0] },
@@ -114,15 +198,155 @@
       "difficulty": 1
     },
     {
-      "id": "gen-014",
+      "id": "gen-059",
       "source": "generated",
       "status": "approved",
-      "order": 9,
+      "order": 15,
       "pieces": [
-        { "id": "g1", "kind": "goal", "color": "terracotta", "pos": [5,3], "target": [2,3] },
-        { "id": "h1", "kind": "helper", "color": "ochre", "pos": [0,2] },
-        { "id": "h2", "kind": "helper", "color": "sage", "pos": [0,5] },
+        { "id": "g1", "kind": "goal", "color": "terracotta", "pos": [4,2], "target": [2,2] },
+        { "id": "h1", "kind": "helper", "color": "ochre", "pos": [0,1] },
+        { "id": "h2", "kind": "helper", "color": "sage", "pos": [4,1] },
+        { "id": "h3", "kind": "helper", "color": "rose", "pos": [1,5] }
+      ],
+      "minMoves": 3,
+      "difficulty": 1
+    },
+    {
+      "id": "gen-060",
+      "source": "generated",
+      "status": "approved",
+      "order": 16,
+      "pieces": [
+        { "id": "g1", "kind": "goal", "color": "terracotta", "pos": [4,3], "target": [1,4] },
+        { "id": "h1", "kind": "helper", "color": "ochre", "pos": [1,5] },
+        { "id": "h2", "kind": "helper", "color": "sage", "pos": [0,4] },
+        { "id": "h3", "kind": "helper", "color": "rose", "pos": [0,0] }
+      ],
+      "minMoves": 3,
+      "difficulty": 1
+    },
+    {
+      "id": "gen-061",
+      "source": "generated",
+      "status": "approved",
+      "order": 17,
+      "pieces": [
+        { "id": "g1", "kind": "goal", "color": "terracotta", "pos": [4,3], "target": [4,2] },
+        { "id": "h1", "kind": "helper", "color": "ochre", "pos": [5,4] },
+        { "id": "h2", "kind": "helper", "color": "sage", "pos": [2,1] },
+        { "id": "h3", "kind": "helper", "color": "rose", "pos": [5,0] }
+      ],
+      "minMoves": 3,
+      "difficulty": 1
+    },
+    {
+      "id": "gen-062",
+      "source": "generated",
+      "status": "approved",
+      "order": 18,
+      "pieces": [
+        { "id": "g1", "kind": "goal", "color": "terracotta", "pos": [4,0], "target": [4,3] },
+        { "id": "h1", "kind": "helper", "color": "ochre", "pos": [5,1] },
+        { "id": "h2", "kind": "helper", "color": "sage", "pos": [0,1] },
+        { "id": "h3", "kind": "helper", "color": "rose", "pos": [4,5] }
+      ],
+      "minMoves": 3,
+      "difficulty": 1
+    },
+    {
+      "id": "gen-063",
+      "source": "generated",
+      "status": "approved",
+      "order": 19,
+      "pieces": [
+        { "id": "g1", "kind": "goal", "color": "terracotta", "pos": [2,1], "target": [3,2] },
+        { "id": "h1", "kind": "helper", "color": "ochre", "pos": [3,3] },
+        { "id": "h2", "kind": "helper", "color": "sage", "pos": [4,0] },
+        { "id": "h3", "kind": "helper", "color": "rose", "pos": [4,4] }
+      ],
+      "minMoves": 3,
+      "difficulty": 1
+    },
+    {
+      "id": "gen-064",
+      "source": "generated",
+      "status": "approved",
+      "order": 20,
+      "pieces": [
+        { "id": "g1", "kind": "goal", "color": "terracotta", "pos": [0,0], "target": [2,4] },
+        { "id": "h1", "kind": "helper", "color": "ochre", "pos": [1,5] },
+        { "id": "h2", "kind": "helper", "color": "sage", "pos": [4,5] },
+        { "id": "h3", "kind": "helper", "color": "rose", "pos": [3,0] }
+      ],
+      "minMoves": 3,
+      "difficulty": 1
+    },
+    {
+      "id": "gen-065",
+      "source": "generated",
+      "status": "approved",
+      "order": 21,
+      "pieces": [
+        { "id": "g1", "kind": "goal", "color": "terracotta", "pos": [5,3], "target": [3,3] },
+        { "id": "h1", "kind": "helper", "color": "ochre", "pos": [4,4] },
+        { "id": "h2", "kind": "helper", "color": "sage", "pos": [2,1] },
+        { "id": "h3", "kind": "helper", "color": "rose", "pos": [1,4] }
+      ],
+      "minMoves": 3,
+      "difficulty": 1
+    },
+    {
+      "id": "gen-066",
+      "source": "generated",
+      "status": "approved",
+      "order": 22,
+      "pieces": [
+        { "id": "g1", "kind": "goal", "color": "terracotta", "pos": [1,1], "target": [2,2] },
+        { "id": "h1", "kind": "helper", "color": "ochre", "pos": [1,3] },
+        { "id": "h2", "kind": "helper", "color": "sage", "pos": [3,1] },
         { "id": "h3", "kind": "helper", "color": "rose", "pos": [3,3] }
+      ],
+      "minMoves": 3,
+      "difficulty": 1
+    },
+    {
+      "id": "gen-067",
+      "source": "generated",
+      "status": "approved",
+      "order": 23,
+      "pieces": [
+        { "id": "g1", "kind": "goal", "color": "terracotta", "pos": [5,5], "target": [1,4] },
+        { "id": "h1", "kind": "helper", "color": "ochre", "pos": [0,3] },
+        { "id": "h2", "kind": "helper", "color": "sage", "pos": [0,5] },
+        { "id": "h3", "kind": "helper", "color": "rose", "pos": [2,3] }
+      ],
+      "minMoves": 3,
+      "difficulty": 1
+    },
+    {
+      "id": "gen-009",
+      "source": "generated",
+      "status": "approved",
+      "order": 24,
+      "pieces": [
+        { "id": "g1", "kind": "goal", "color": "terracotta", "pos": [2,1], "target": [4,2] },
+        { "id": "h1", "kind": "helper", "color": "ochre", "pos": [5,1] },
+        { "id": "h2", "kind": "helper", "color": "sage", "pos": [4,1] },
+        { "id": "h3", "kind": "helper", "color": "rose", "pos": [4,4] }
+      ],
+      "minMoves": 3,
+      "difficulty": 1
+    },
+    {
+      "id": "gen-010",
+      "source": "generated",
+      "status": "approved",
+      "order": 25,
+      "pieces": [
+        { "id": "g1", "kind": "goal", "color": "terracotta", "pos": [1,2], "target": [2,1] },
+        { "id": "h1", "kind": "helper", "color": "ochre", "pos": [4,1] },
+        { "id": "h2", "kind": "helper", "color": "sage", "pos": [1,0] },
+        { "id": "h3", "kind": "helper", "color": "rose", "pos": [0,1] }
       ],
       "minMoves": 3,
       "difficulty": 1
@@ -131,7 +355,7 @@
       "id": "test-001",
       "source": "generated",
       "status": "approved",
-      "order": 10,
+      "order": 26,
       "pieces": [
         { "id": "g1", "kind": "goal", "color": "terracotta", "pos": [1,5], "target": [2,2] },
         { "id": "h1", "kind": "helper", "color": "ochre", "pos": [1,0] },
@@ -142,38 +366,66 @@
       "difficulty": 1
     },
     {
-      "id": "gen-015",
+      "id": "gen-068",
       "source": "generated",
       "status": "approved",
-      "order": 11,
+      "order": 27,
       "pieces": [
-        { "id": "g1", "kind": "goal", "color": "terracotta", "pos": [2,0], "target": [3,3] },
-        { "id": "h1", "kind": "helper", "color": "ochre", "pos": [2,1] },
-        { "id": "h2", "kind": "helper", "color": "sage", "pos": [2,4] },
-        { "id": "h3", "kind": "helper", "color": "rose", "pos": [5,3] }
+        { "id": "g1", "kind": "goal", "color": "terracotta", "pos": [4,3], "target": [2,1] },
+        { "id": "h1", "kind": "helper", "color": "ochre", "pos": [0,1] },
+        { "id": "h2", "kind": "helper", "color": "sage", "pos": [4,0] },
+        { "id": "h3", "kind": "helper", "color": "rose", "pos": [5,1] }
       ],
-      "minMoves": 4,
-      "difficulty": 2
+      "minMoves": 3,
+      "difficulty": 1
     },
     {
-      "id": "gen-016",
+      "id": "gen-069",
       "source": "generated",
       "status": "approved",
-      "order": 12,
+      "order": 28,
       "pieces": [
-        { "id": "g1", "kind": "goal", "color": "terracotta", "pos": [1,1], "target": [2,3] },
-        { "id": "h1", "kind": "helper", "color": "ochre", "pos": [4,1] },
-        { "id": "h2", "kind": "helper", "color": "sage", "pos": [2,1] },
-        { "id": "h3", "kind": "helper", "color": "rose", "pos": [2,5] }
+        { "id": "g1", "kind": "goal", "color": "terracotta", "pos": [3,1], "target": [4,2] },
+        { "id": "h1", "kind": "helper", "color": "ochre", "pos": [5,5] },
+        { "id": "h2", "kind": "helper", "color": "sage", "pos": [5,1] },
+        { "id": "h3", "kind": "helper", "color": "rose", "pos": [3,3] }
       ],
-      "minMoves": 4,
-      "difficulty": 2
+      "minMoves": 3,
+      "difficulty": 1
+    },
+    {
+      "id": "gen-070",
+      "source": "generated",
+      "status": "approved",
+      "order": 29,
+      "pieces": [
+        { "id": "g1", "kind": "goal", "color": "terracotta", "pos": [4,2], "target": [2,4] },
+        { "id": "h1", "kind": "helper", "color": "ochre", "pos": [2,5] },
+        { "id": "h2", "kind": "helper", "color": "sage", "pos": [0,2] },
+        { "id": "h3", "kind": "helper", "color": "rose", "pos": [2,2] }
+      ],
+      "minMoves": 3,
+      "difficulty": 1
+    },
+    {
+      "id": "gen-014",
+      "source": "generated",
+      "status": "approved",
+      "order": 30,
+      "pieces": [
+        { "id": "g1", "kind": "goal", "color": "terracotta", "pos": [5,3], "target": [2,3] },
+        { "id": "h1", "kind": "helper", "color": "ochre", "pos": [0,2] },
+        { "id": "h2", "kind": "helper", "color": "sage", "pos": [0,5] },
+        { "id": "h3", "kind": "helper", "color": "rose", "pos": [3,3] }
+      ],
+      "minMoves": 3,
+      "difficulty": 1
     },
     {
       "id": "gen-017",
       "source": "generated",
       "status": "approved",
-      "order": 13,
+      "order": 31,
       "pieces": [
         { "id": "g1", "kind": "goal", "color": "terracotta", "pos": [1,0], "target": [2,1] },
         { "id": "h1", "kind": "helper", "color": "ochre", "pos": [3,4] },
@@ -187,7 +439,7 @@
       "id": "gen-018",
       "source": "generated",
       "status": "approved",
-      "order": 14,
+      "order": 32,
       "pieces": [
         { "id": "g1", "kind": "goal", "color": "terracotta", "pos": [5,2], "target": [2,2] },
         { "id": "h1", "kind": "helper", "color": "ochre", "pos": [0,3] },
@@ -201,7 +453,7 @@
       "id": "test-002",
       "source": "generated",
       "status": "approved",
-      "order": 15,
+      "order": 33,
       "pieces": [
         { "id": "g1", "kind": "goal", "color": "terracotta", "pos": [2,4], "target": [2,2] },
         { "id": "h1", "kind": "helper", "color": "ochre", "pos": [2,0] },
@@ -212,10 +464,227 @@
       "difficulty": 2
     },
     {
+      "id": "gen-015",
+      "source": "generated",
+      "status": "approved",
+      "order": 34,
+      "pieces": [
+        { "id": "g1", "kind": "goal", "color": "terracotta", "pos": [2,0], "target": [3,3] },
+        { "id": "h1", "kind": "helper", "color": "ochre", "pos": [2,1] },
+        { "id": "h2", "kind": "helper", "color": "sage", "pos": [2,4] },
+        { "id": "h3", "kind": "helper", "color": "rose", "pos": [5,3] }
+      ],
+      "minMoves": 4,
+      "difficulty": 2
+    },
+    {
+      "id": "gen-071",
+      "source": "generated",
+      "status": "approved",
+      "order": 35,
+      "pieces": [
+        { "id": "g1", "kind": "goal", "color": "terracotta", "pos": [4,0], "target": [2,1] },
+        { "id": "h1", "kind": "helper", "color": "ochre", "pos": [3,0] },
+        { "id": "h2", "kind": "helper", "color": "sage", "pos": [2,3] },
+        { "id": "h3", "kind": "helper", "color": "rose", "pos": [1,0] }
+      ],
+      "minMoves": 4,
+      "difficulty": 2
+    },
+    {
+      "id": "gen-072",
+      "source": "generated",
+      "status": "approved",
+      "order": 36,
+      "pieces": [
+        { "id": "g1", "kind": "goal", "color": "terracotta", "pos": [4,1], "target": [4,2] },
+        { "id": "h1", "kind": "helper", "color": "ochre", "pos": [4,5] },
+        { "id": "h2", "kind": "helper", "color": "sage", "pos": [4,4] },
+        { "id": "h3", "kind": "helper", "color": "rose", "pos": [2,2] }
+      ],
+      "minMoves": 4,
+      "difficulty": 2
+    },
+    {
+      "id": "gen-016",
+      "source": "generated",
+      "status": "approved",
+      "order": 37,
+      "pieces": [
+        { "id": "g1", "kind": "goal", "color": "terracotta", "pos": [1,1], "target": [2,3] },
+        { "id": "h1", "kind": "helper", "color": "ochre", "pos": [4,1] },
+        { "id": "h2", "kind": "helper", "color": "sage", "pos": [2,1] },
+        { "id": "h3", "kind": "helper", "color": "rose", "pos": [2,5] }
+      ],
+      "minMoves": 4,
+      "difficulty": 2
+    },
+    {
+      "id": "gen-073",
+      "source": "generated",
+      "status": "approved",
+      "order": 38,
+      "pieces": [
+        { "id": "g1", "kind": "goal", "color": "terracotta", "pos": [4,0], "target": [3,1] },
+        { "id": "h1", "kind": "helper", "color": "ochre", "pos": [2,2] },
+        { "id": "h2", "kind": "helper", "color": "sage", "pos": [4,5] },
+        { "id": "h3", "kind": "helper", "color": "rose", "pos": [1,0] }
+      ],
+      "minMoves": 4,
+      "difficulty": 2
+    },
+    {
+      "id": "gen-074",
+      "source": "generated",
+      "status": "approved",
+      "order": 39,
+      "pieces": [
+        { "id": "g1", "kind": "goal", "color": "terracotta", "pos": [2,4], "target": [4,2] },
+        { "id": "h1", "kind": "helper", "color": "ochre", "pos": [1,1] },
+        { "id": "h2", "kind": "helper", "color": "sage", "pos": [5,1] },
+        { "id": "h3", "kind": "helper", "color": "rose", "pos": [5,3] }
+      ],
+      "minMoves": 4,
+      "difficulty": 2
+    },
+    {
+      "id": "gen-075",
+      "source": "generated",
+      "status": "approved",
+      "order": 40,
+      "pieces": [
+        { "id": "g1", "kind": "goal", "color": "terracotta", "pos": [4,1], "target": [3,4] },
+        { "id": "h1", "kind": "helper", "color": "ochre", "pos": [2,2] },
+        { "id": "h2", "kind": "helper", "color": "sage", "pos": [2,5] },
+        { "id": "h3", "kind": "helper", "color": "rose", "pos": [5,5] }
+      ],
+      "minMoves": 4,
+      "difficulty": 2
+    },
+    {
+      "id": "gen-076",
+      "source": "generated",
+      "status": "approved",
+      "order": 41,
+      "pieces": [
+        { "id": "g1", "kind": "goal", "color": "terracotta", "pos": [2,1], "target": [3,2] },
+        { "id": "h1", "kind": "helper", "color": "ochre", "pos": [4,1] },
+        { "id": "h2", "kind": "helper", "color": "sage", "pos": [4,4] },
+        { "id": "h3", "kind": "helper", "color": "rose", "pos": [0,3] }
+      ],
+      "minMoves": 4,
+      "difficulty": 2
+    },
+    {
+      "id": "gen-077",
+      "source": "generated",
+      "status": "approved",
+      "order": 42,
+      "pieces": [
+        { "id": "g1", "kind": "goal", "color": "terracotta", "pos": [1,0], "target": [2,3] },
+        { "id": "h1", "kind": "helper", "color": "ochre", "pos": [2,2] },
+        { "id": "h2", "kind": "helper", "color": "sage", "pos": [3,1] },
+        { "id": "h3", "kind": "helper", "color": "rose", "pos": [0,2] },
+        { "id": "h4", "kind": "helper", "color": "ochre", "pos": [2,4] }
+      ],
+      "minMoves": 4,
+      "difficulty": 2
+    },
+    {
+      "id": "gen-078",
+      "source": "generated",
+      "status": "approved",
+      "order": 43,
+      "pieces": [
+        { "id": "g1", "kind": "goal", "color": "terracotta", "pos": [1,5], "target": [2,3] },
+        { "id": "h1", "kind": "helper", "color": "ochre", "pos": [3,3] },
+        { "id": "h2", "kind": "helper", "color": "sage", "pos": [0,2] },
+        { "id": "h3", "kind": "helper", "color": "rose", "pos": [4,1] },
+        { "id": "h4", "kind": "helper", "color": "ochre", "pos": [0,1] }
+      ],
+      "minMoves": 5,
+      "difficulty": 2
+    },
+    {
+      "id": "gen-079",
+      "source": "generated",
+      "status": "approved",
+      "order": 44,
+      "pieces": [
+        { "id": "g1", "kind": "goal", "color": "terracotta", "pos": [3,1], "target": [4,2] },
+        { "id": "h1", "kind": "helper", "color": "ochre", "pos": [0,4] },
+        { "id": "h2", "kind": "helper", "color": "sage", "pos": [2,3] },
+        { "id": "h3", "kind": "helper", "color": "rose", "pos": [0,1] },
+        { "id": "h4", "kind": "helper", "color": "ochre", "pos": [5,2] }
+      ],
+      "minMoves": 5,
+      "difficulty": 2
+    },
+    {
+      "id": "gen-080",
+      "source": "generated",
+      "status": "approved",
+      "order": 45,
+      "pieces": [
+        { "id": "g1", "kind": "goal", "color": "terracotta", "pos": [2,2], "target": [4,4] },
+        { "id": "h1", "kind": "helper", "color": "ochre", "pos": [5,3] },
+        { "id": "h2", "kind": "helper", "color": "sage", "pos": [0,5] },
+        { "id": "h3", "kind": "helper", "color": "rose", "pos": [3,5] },
+        { "id": "h4", "kind": "helper", "color": "ochre", "pos": [5,5] }
+      ],
+      "minMoves": 4,
+      "difficulty": 2
+    },
+    {
+      "id": "gen-081",
+      "source": "generated",
+      "status": "approved",
+      "order": 46,
+      "pieces": [
+        { "id": "g1", "kind": "goal", "color": "terracotta", "pos": [1,5], "target": [3,3] },
+        { "id": "h1", "kind": "helper", "color": "ochre", "pos": [2,2] },
+        { "id": "h2", "kind": "helper", "color": "sage", "pos": [2,4] },
+        { "id": "h3", "kind": "helper", "color": "rose", "pos": [3,5] },
+        { "id": "h4", "kind": "helper", "color": "ochre", "pos": [5,3] }
+      ],
+      "minMoves": 5,
+      "difficulty": 2
+    },
+    {
+      "id": "gen-082",
+      "source": "generated",
+      "status": "approved",
+      "order": 47,
+      "pieces": [
+        { "id": "g1", "kind": "goal", "color": "terracotta", "pos": [0,1], "target": [2,3] },
+        { "id": "h1", "kind": "helper", "color": "ochre", "pos": [0,4] },
+        { "id": "h2", "kind": "helper", "color": "sage", "pos": [1,3] },
+        { "id": "h3", "kind": "helper", "color": "rose", "pos": [5,3] },
+        { "id": "h4", "kind": "helper", "color": "rose", "pos": [0,3] }
+      ],
+      "minMoves": 4,
+      "difficulty": 2
+    },
+    {
+      "id": "gen-083",
+      "source": "generated",
+      "status": "approved",
+      "order": 48,
+      "pieces": [
+        { "id": "g1", "kind": "goal", "color": "terracotta", "pos": [5,4], "target": [4,3] },
+        { "id": "h1", "kind": "helper", "color": "ochre", "pos": [4,2] },
+        { "id": "h2", "kind": "helper", "color": "sage", "pos": [5,1] },
+        { "id": "h3", "kind": "helper", "color": "rose", "pos": [5,5] },
+        { "id": "h4", "kind": "helper", "color": "ochre", "pos": [1,4] }
+      ],
+      "minMoves": 4,
+      "difficulty": 2
+    },
+    {
       "id": "gen-019",
       "source": "generated",
       "status": "approved",
-      "order": 16,
+      "order": 49,
       "pieces": [
         { "id": "g1", "kind": "goal", "color": "terracotta", "pos": [2,3], "target": [3,3] },
         { "id": "h1", "kind": "helper", "color": "ochre", "pos": [1,3] },
@@ -227,39 +696,10 @@
       "difficulty": 2
     },
     {
-      "id": "gen-020",
-      "source": "generated",
-      "status": "approved",
-      "order": 17,
-      "pieces": [
-        { "id": "g1", "kind": "goal", "color": "terracotta", "pos": [5,0], "target": [4,3] },
-        { "id": "h1", "kind": "helper", "color": "ochre", "pos": [3,5] },
-        { "id": "h2", "kind": "helper", "color": "sage", "pos": [0,0] },
-        { "id": "h3", "kind": "helper", "color": "rose", "pos": [3,0] },
-        { "id": "h4", "kind": "helper", "color": "ochre", "pos": [5,3] }
-      ],
-      "minMoves": 5,
-      "difficulty": 2
-    },
-    {
-      "id": "gen-021",
-      "source": "generated",
-      "status": "approved",
-      "order": 18,
-      "pieces": [
-        { "id": "g1", "kind": "goal", "color": "terracotta", "pos": [5,2], "target": [4,3] },
-        { "id": "h1", "kind": "helper", "color": "ochre", "pos": [4,5] },
-        { "id": "h2", "kind": "helper", "color": "sage", "pos": [2,2] },
-        { "id": "h3", "kind": "helper", "color": "rose", "pos": [0,2] }
-      ],
-      "minMoves": 5,
-      "difficulty": 2
-    },
-    {
       "id": "gen-022",
       "source": "generated",
       "status": "approved",
-      "order": 19,
+      "order": 50,
       "pieces": [
         { "id": "g1", "kind": "goal", "color": "terracotta", "pos": [0,4], "target": [1,3] },
         { "id": "h1", "kind": "helper", "color": "ochre", "pos": [0,1] },
@@ -270,10 +710,39 @@
       "difficulty": 2
     },
     {
+      "id": "gen-084",
+      "source": "generated",
+      "status": "approved",
+      "order": 51,
+      "pieces": [
+        { "id": "g1", "kind": "goal", "color": "terracotta", "pos": [5,0], "target": [3,4] },
+        { "id": "h1", "kind": "helper", "color": "ochre", "pos": [5,5] },
+        { "id": "h2", "kind": "helper", "color": "sage", "pos": [2,5] },
+        { "id": "h3", "kind": "helper", "color": "rose", "pos": [4,3] },
+        { "id": "h4", "kind": "helper", "color": "ochre", "pos": [1,3] }
+      ],
+      "minMoves": 4,
+      "difficulty": 2
+    },
+    {
+      "id": "gen-085",
+      "source": "generated",
+      "status": "approved",
+      "order": 52,
+      "pieces": [
+        { "id": "g1", "kind": "goal", "color": "terracotta", "pos": [5,0], "target": [2,3] },
+        { "id": "h1", "kind": "helper", "color": "ochre", "pos": [2,5] },
+        { "id": "h2", "kind": "helper", "color": "sage", "pos": [1,0] },
+        { "id": "h3", "kind": "helper", "color": "rose", "pos": [3,0] }
+      ],
+      "minMoves": 4,
+      "difficulty": 2
+    },
+    {
       "id": "gen-023",
       "source": "generated",
       "status": "approved",
-      "order": 20,
+      "order": 53,
       "pieces": [
         { "id": "g1", "kind": "goal", "color": "terracotta", "pos": [1,0], "target": [4,4] },
         { "id": "h1", "kind": "helper", "color": "ochre", "pos": [5,1] },
@@ -285,10 +754,114 @@
       "difficulty": 2
     },
     {
+      "id": "gen-086",
+      "source": "generated",
+      "status": "approved",
+      "order": 54,
+      "pieces": [
+        { "id": "g1", "kind": "goal", "color": "terracotta", "pos": [0,2], "target": [2,2] },
+        { "id": "h1", "kind": "helper", "color": "ochre", "pos": [4,1] },
+        { "id": "h2", "kind": "helper", "color": "sage", "pos": [4,5] },
+        { "id": "h3", "kind": "helper", "color": "rose", "pos": [4,3] }
+      ],
+      "minMoves": 5,
+      "difficulty": 2
+    },
+    {
+      "id": "gen-087",
+      "source": "generated",
+      "status": "approved",
+      "order": 55,
+      "pieces": [
+        { "id": "g1", "kind": "goal", "color": "terracotta", "pos": [2,1], "target": [1,2] },
+        { "id": "h1", "kind": "helper", "color": "ochre", "pos": [2,5] },
+        { "id": "h2", "kind": "helper", "color": "sage", "pos": [2,4] },
+        { "id": "h3", "kind": "helper", "color": "rose", "pos": [0,4] },
+        { "id": "h4", "kind": "helper", "color": "ochre", "pos": [1,0] }
+      ],
+      "minMoves": 5,
+      "difficulty": 2
+    },
+    {
+      "id": "gen-088",
+      "source": "generated",
+      "status": "approved",
+      "order": 56,
+      "pieces": [
+        { "id": "g1", "kind": "goal", "color": "terracotta", "pos": [0,1], "target": [3,2] },
+        { "id": "h1", "kind": "helper", "color": "ochre", "pos": [2,5] },
+        { "id": "h2", "kind": "helper", "color": "sage", "pos": [3,0] },
+        { "id": "h3", "kind": "helper", "color": "rose", "pos": [4,2] },
+        { "id": "h4", "kind": "helper", "color": "ochre", "pos": [1,3] },
+        { "id": "h5", "kind": "helper", "color": "sage", "pos": [1,0] }
+      ],
+      "minMoves": 5,
+      "difficulty": 2
+    },
+    {
+      "id": "gen-089",
+      "source": "generated",
+      "status": "approved",
+      "order": 57,
+      "pieces": [
+        { "id": "g1", "kind": "goal", "color": "terracotta", "pos": [2,0], "target": [1,3] },
+        { "id": "h1", "kind": "helper", "color": "ochre", "pos": [0,3] },
+        { "id": "h2", "kind": "helper", "color": "sage", "pos": [3,5] },
+        { "id": "h3", "kind": "helper", "color": "rose", "pos": [2,2] },
+        { "id": "h4", "kind": "helper", "color": "ochre", "pos": [0,5] }
+      ],
+      "minMoves": 4,
+      "difficulty": 2
+    },
+    {
+      "id": "gen-021",
+      "source": "generated",
+      "status": "approved",
+      "order": 58,
+      "pieces": [
+        { "id": "g1", "kind": "goal", "color": "terracotta", "pos": [5,2], "target": [4,3] },
+        { "id": "h1", "kind": "helper", "color": "ochre", "pos": [4,5] },
+        { "id": "h2", "kind": "helper", "color": "sage", "pos": [2,2] },
+        { "id": "h3", "kind": "helper", "color": "rose", "pos": [0,2] }
+      ],
+      "minMoves": 5,
+      "difficulty": 2
+    },
+    {
+      "id": "gen-090",
+      "source": "generated",
+      "status": "approved",
+      "order": 59,
+      "pieces": [
+        { "id": "g1", "kind": "goal", "color": "terracotta", "pos": [3,5], "target": [1,3] },
+        { "id": "h1", "kind": "helper", "color": "ochre", "pos": [0,5] },
+        { "id": "h2", "kind": "helper", "color": "sage", "pos": [0,2] },
+        { "id": "h3", "kind": "helper", "color": "rose", "pos": [5,4] },
+        { "id": "h4", "kind": "helper", "color": "ochre", "pos": [5,1] }
+      ],
+      "minMoves": 4,
+      "difficulty": 2
+    },
+    {
+      "id": "gen-020",
+      "source": "generated",
+      "status": "approved",
+      "order": 60,
+      "pieces": [
+        { "id": "g1", "kind": "goal", "color": "terracotta", "pos": [5,0], "target": [4,3] },
+        { "id": "h1", "kind": "helper", "color": "ochre", "pos": [3,5] },
+        { "id": "h2", "kind": "helper", "color": "sage", "pos": [0,0] },
+        { "id": "h3", "kind": "helper", "color": "rose", "pos": [3,0] },
+        { "id": "h4", "kind": "helper", "color": "ochre", "pos": [5,3] }
+      ],
+      "minMoves": 5,
+      "difficulty": 2
+    },
+    {
       "id": "gen-024",
       "source": "generated",
       "status": "approved",
-      "order": 21,
+      "order": 61,
       "pieces": [
         { "id": "g1", "kind": "goal", "color": "terracotta", "pos": [1,3], "target": [4,2] },
         { "id": "g2", "kind": "goal", "color": "blue", "pos": [3,5], "target": [4,3] },
@@ -300,25 +873,10 @@
       "difficulty": 3
     },
     {
-      "id": "gen-025",
-      "source": "generated",
-      "status": "approved",
-      "order": 22,
-      "pieces": [
-        { "id": "g1", "kind": "goal", "color": "terracotta", "pos": [2,5], "target": [3,2] },
-        { "id": "g2", "kind": "goal", "color": "blue", "pos": [4,4], "target": [3,3] },
-        { "id": "h1", "kind": "helper", "color": "ochre", "pos": [3,1] },
-        { "id": "h2", "kind": "helper", "color": "sage", "pos": [4,5] },
-        { "id": "h3", "kind": "helper", "color": "rose", "pos": [2,3] }
-      ],
-      "minMoves": 5,
-      "difficulty": 3
-    },
-    {
       "id": "gen-026",
       "source": "generated",
       "status": "approved",
-      "order": 23,
+      "order": 62,
       "pieces": [
         { "id": "g1", "kind": "goal", "color": "terracotta", "pos": [5,3], "target": [3,3] },
         { "id": "g2", "kind": "goal", "color": "blue", "pos": [3,5], "target": [3,4] },
@@ -333,7 +891,7 @@
       "id": "gen-027",
       "source": "generated",
       "status": "approved",
-      "order": 24,
+      "order": 63,
       "pieces": [
         { "id": "g1", "kind": "goal", "color": "terracotta", "pos": [2,0], "target": [4,0] },
         { "id": "g2", "kind": "goal", "color": "blue", "pos": [0,2], "target": [2,2] },
@@ -346,31 +904,33 @@
       "difficulty": 3
     },
     {
-      "id": "test-003",
+      "id": "gen-033",
       "source": "generated",
       "status": "approved",
-      "order": 25,
+      "order": 64,
       "pieces": [
-        { "id": "g1", "kind": "goal", "color": "terracotta", "pos": [2,0], "target": [4,1] },
-        { "id": "g2", "kind": "goal", "color": "blue", "pos": [5,0], "target": [4,0] },
-        { "id": "h1", "kind": "helper", "color": "ochre", "pos": [1,0] },
-        { "id": "h2", "kind": "helper", "color": "sage", "pos": [0,5] },
-        { "id": "h3", "kind": "helper", "color": "plum", "pos": [4,5] }
+        { "id": "g1", "kind": "goal", "color": "terracotta", "pos": [2,0], "target": [2,1] },
+        { "id": "g2", "kind": "goal", "color": "blue", "pos": [3,5], "target": [2,3] },
+        { "id": "h1", "kind": "helper", "color": "ochre", "pos": [1,3] },
+        { "id": "h2", "kind": "helper", "color": "sage", "pos": [0,3] },
+        { "id": "h3", "kind": "helper", "color": "rose", "pos": [4,1] },
+        { "id": "h4", "kind": "helper", "color": "ochre", "pos": [2,5] },
+        { "id": "h5", "kind": "helper", "color": "sage", "pos": [3,4] }
       ],
-      "minMoves": 5,
+      "minMoves": 7,
       "difficulty": 3
     },
     {
-      "id": "gen-028",
+      "id": "gen-032",
       "source": "generated",
       "status": "approved",
-      "order": 26,
+      "order": 65,
       "pieces": [
-        { "id": "g1", "kind": "goal", "color": "terracotta", "pos": [5,4], "target": [4,2] },
-        { "id": "g2", "kind": "goal", "color": "blue", "pos": [1,4], "target": [4,3] },
-        { "id": "h1", "kind": "helper", "color": "ochre", "pos": [0,2] },
-        { "id": "h2", "kind": "helper", "color": "sage", "pos": [5,5] },
-        { "id": "h3", "kind": "helper", "color": "rose", "pos": [5,1] }
+        { "id": "g1", "kind": "goal", "color": "terracotta", "pos": [3,1], "target": [3,2] },
+        { "id": "g2", "kind": "goal", "color": "blue", "pos": [0,4], "target": [3,4] },
+        { "id": "h1", "kind": "helper", "color": "ochre", "pos": [1,4] },
+        { "id": "h2", "kind": "helper", "color": "sage", "pos": [4,5] },
+        { "id": "h3", "kind": "helper", "color": "rose", "pos": [4,0] }
       ],
       "minMoves": 6,
       "difficulty": 3
@@ -379,7 +939,7 @@
       "id": "gen-029",
       "source": "generated",
       "status": "approved",
-      "order": 27,
+      "order": 66,
       "pieces": [
         { "id": "g1", "kind": "goal", "color": "terracotta", "pos": [2,3], "target": [4,4] },
         { "id": "g2", "kind": "goal", "color": "blue", "pos": [2,5], "target": [3,4] },
@@ -394,7 +954,7 @@
       "id": "gen-030",
       "source": "generated",
       "status": "approved",
-      "order": 28,
+      "order": 67,
       "pieces": [
         { "id": "g1", "kind": "goal", "color": "terracotta", "pos": [2,5], "target": [3,3] },
         { "id": "g2", "kind": "goal", "color": "blue", "pos": [0,4], "target": [3,4] },
@@ -406,10 +966,264 @@
       "difficulty": 3
     },
     {
+      "id": "gen-034",
+      "source": "generated",
+      "status": "approved",
+      "order": 68,
+      "pieces": [
+        { "id": "g1", "kind": "goal", "color": "terracotta", "pos": [0,3], "target": [2,1] },
+        { "id": "g2", "kind": "goal", "color": "blue", "pos": [1,0], "target": [4,2] },
+        { "id": "h1", "kind": "helper", "color": "ochre", "pos": [2,0] },
+        { "id": "h2", "kind": "helper", "color": "sage", "pos": [4,4] },
+        { "id": "h3", "kind": "helper", "color": "rose", "pos": [5,3] },
+        { "id": "h4", "kind": "helper", "color": "ochre", "pos": [5,1] },
+        { "id": "h5", "kind": "helper", "color": "sage", "pos": [5,2] }
+      ],
+      "minMoves": 7,
+      "difficulty": 3
+    },
+    {
+      "id": "gen-035",
+      "source": "generated",
+      "status": "approved",
+      "order": 69,
+      "pieces": [
+        { "id": "g1", "kind": "goal", "color": "terracotta", "pos": [1,0], "target": [3,4] },
+        { "id": "g2", "kind": "goal", "color": "blue", "pos": [1,1], "target": [1,3] },
+        { "id": "h1", "kind": "helper", "color": "ochre", "pos": [2,2] },
+        { "id": "h2", "kind": "helper", "color": "sage", "pos": [0,4] },
+        { "id": "h3", "kind": "helper", "color": "rose", "pos": [4,2] },
+        { "id": "h4", "kind": "helper", "color": "ochre", "pos": [3,5] }
+      ],
+      "minMoves": 7,
+      "difficulty": 3
+    },
+    {
+      "id": "gen-091",
+      "source": "generated",
+      "status": "approved",
+      "order": 70,
+      "pieces": [
+        { "id": "g1", "kind": "goal", "color": "terracotta", "pos": [5,2], "target": [1,3] },
+        { "id": "h1", "kind": "helper", "color": "ochre", "pos": [0,1] },
+        { "id": "h2", "kind": "helper", "color": "sage", "pos": [0,3] },
+        { "id": "h3", "kind": "helper", "color": "rose", "pos": [1,5] },
+        { "id": "h4", "kind": "helper", "color": "ochre", "pos": [3,2] }
+      ],
+      "minMoves": 5,
+      "difficulty": 3
+    },
+    {
+      "id": "gen-092",
+      "source": "generated",
+      "status": "approved",
+      "order": 71,
+      "pieces": [
+        { "id": "g1", "kind": "goal", "color": "terracotta", "pos": [2,5], "target": [2,1] },
+        { "id": "g2", "kind": "goal", "color": "blue", "pos": [3,0], "target": [3,3] },
+        { "id": "h1", "kind": "helper", "color": "ochre", "pos": [4,4] },
+        { "id": "h2", "kind": "helper", "color": "sage", "pos": [2,0] },
+        { "id": "h3", "kind": "helper", "color": "rose", "pos": [0,0] }
+      ],
+      "minMoves": 5,
+      "difficulty": 3
+    },
+    {
+      "id": "gen-093",
+      "source": "generated",
+      "status": "approved",
+      "order": 72,
+      "pieces": [
+        { "id": "g1", "kind": "goal", "color": "terracotta", "pos": [4,0], "target": [4,3] },
+        { "id": "g2", "kind": "goal", "color": "blue", "pos": [1,0], "target": [3,1] },
+        { "id": "h1", "kind": "helper", "color": "ochre", "pos": [3,0] },
+        { "id": "h2", "kind": "helper", "color": "sage", "pos": [3,3] },
+        { "id": "h3", "kind": "helper", "color": "rose", "pos": [0,4] },
+        { "id": "h4", "kind": "helper", "color": "ochre", "pos": [5,4] }
+      ],
+      "minMoves": 5,
+      "difficulty": 3
+    },
+    {
+      "id": "gen-094",
+      "source": "generated",
+      "status": "approved",
+      "order": 73,
+      "pieces": [
+        { "id": "g1", "kind": "goal", "color": "terracotta", "pos": [5,4], "target": [2,1] },
+        { "id": "g2", "kind": "goal", "color": "blue", "pos": [4,0], "target": [1,1] },
+        { "id": "h1", "kind": "helper", "color": "ochre", "pos": [0,0] },
+        { "id": "h2", "kind": "helper", "color": "sage", "pos": [5,0] },
+        { "id": "h3", "kind": "helper", "color": "rose", "pos": [1,3] }
+      ],
+      "minMoves": 6,
+      "difficulty": 3
+    },
+    {
+      "id": "gen-095",
+      "source": "generated",
+      "status": "approved",
+      "order": 74,
+      "pieces": [
+        { "id": "g1", "kind": "goal", "color": "terracotta", "pos": [0,0], "target": [3,1] },
+        { "id": "g2", "kind": "goal", "color": "blue", "pos": [0,3], "target": [1,2] },
+        { "id": "h1", "kind": "helper", "color": "ochre", "pos": [4,0] },
+        { "id": "h2", "kind": "helper", "color": "sage", "pos": [3,2] },
+        { "id": "h3", "kind": "helper", "color": "rose", "pos": [0,1] },
+        { "id": "h4", "kind": "helper", "color": "ochre", "pos": [1,4] },
+        { "id": "h5", "kind": "helper", "color": "sage", "pos": [1,1] }
+      ],
+      "minMoves": 6,
+      "difficulty": 3
+    },
+    {
+      "id": "gen-096",
+      "source": "generated",
+      "status": "approved",
+      "order": 75,
+      "pieces": [
+        { "id": "g1", "kind": "goal", "color": "terracotta", "pos": [0,3], "target": [4,2] },
+        { "id": "h1", "kind": "helper", "color": "ochre", "pos": [2,0] },
+        { "id": "h2", "kind": "helper", "color": "sage", "pos": [5,2] },
+        { "id": "h3", "kind": "helper", "color": "rose", "pos": [2,3] },
+        { "id": "h4", "kind": "helper", "color": "ochre", "pos": [5,3] }
+      ],
+      "minMoves": 5,
+      "difficulty": 3
+    },
+    {
+      "id": "gen-097",
+      "source": "generated",
+      "status": "approved",
+      "order": 76,
+      "pieces": [
+        { "id": "g1", "kind": "goal", "color": "terracotta", "pos": [3,5], "target": [3,3] },
+        { "id": "g2", "kind": "goal", "color": "blue", "pos": [4,2], "target": [2,3] },
+        { "id": "h1", "kind": "helper", "color": "ochre", "pos": [3,4] },
+        { "id": "h2", "kind": "helper", "color": "sage", "pos": [2,1] },
+        { "id": "h3", "kind": "helper", "color": "rose", "pos": [3,2] },
+        { "id": "h4", "kind": "helper", "color": "ochre", "pos": [1,4] },
+        { "id": "h5", "kind": "helper", "color": "sage", "pos": [4,5] }
+      ],
+      "minMoves": 6,
+      "difficulty": 3
+    },
+    {
+      "id": "gen-098",
+      "source": "generated",
+      "status": "approved",
+      "order": 77,
+      "pieces": [
+        { "id": "g1", "kind": "goal", "color": "terracotta", "pos": [0,5], "target": [1,3] },
+        { "id": "h1", "kind": "helper", "color": "ochre", "pos": [5,1] },
+        { "id": "h2", "kind": "helper", "color": "sage", "pos": [2,5] },
+        { "id": "h3", "kind": "helper", "color": "rose", "pos": [0,0] },
+        { "id": "h4", "kind": "helper", "color": "ochre", "pos": [1,1] }
+      ],
+      "minMoves": 6,
+      "difficulty": 3
+    },
+    {
+      "id": "gen-025",
+      "source": "generated",
+      "status": "approved",
+      "order": 78,
+      "pieces": [
+        { "id": "g1", "kind": "goal", "color": "terracotta", "pos": [2,5], "target": [3,2] },
+        { "id": "g2", "kind": "goal", "color": "blue", "pos": [4,4], "target": [3,3] },
+        { "id": "h1", "kind": "helper", "color": "ochre", "pos": [3,1] },
+        { "id": "h2", "kind": "helper", "color": "sage", "pos": [4,5] },
+        { "id": "h3", "kind": "helper", "color": "rose", "pos": [2,3] }
+      ],
+      "minMoves": 5,
+      "difficulty": 3
+    },
+    {
+      "id": "gen-099",
+      "source": "generated",
+      "status": "approved",
+      "order": 79,
+      "pieces": [
+        { "id": "g1", "kind": "goal", "color": "terracotta", "pos": [3,0], "target": [3,1] },
+        { "id": "h1", "kind": "helper", "color": "ochre", "pos": [1,1] },
+        { "id": "h2", "kind": "helper", "color": "sage", "pos": [5,1] },
+        { "id": "h3", "kind": "helper", "color": "rose", "pos": [4,3] },
+        { "id": "h4", "kind": "helper", "color": "ochre", "pos": [0,0] },
+        { "id": "h5", "kind": "helper", "color": "sage", "pos": [0,3] }
+      ],
+      "minMoves": 5,
+      "difficulty": 3
+    },
+    {
+      "id": "gen-028",
+      "source": "generated",
+      "status": "approved",
+      "order": 80,
+      "pieces": [
+        { "id": "g1", "kind": "goal", "color": "terracotta", "pos": [5,4], "target": [4,2] },
+        { "id": "g2", "kind": "goal", "color": "blue", "pos": [1,4], "target": [4,3] },
+        { "id": "h1", "kind": "helper", "color": "ochre", "pos": [0,2] },
+        { "id": "h2", "kind": "helper", "color": "sage", "pos": [5,5] },
+        { "id": "h3", "kind": "helper", "color": "rose", "pos": [5,1] }
+      ],
+      "minMoves": 6,
+      "difficulty": 3
+    },
+    {
+      "id": "gen-100",
+      "source": "generated",
+      "status": "approved",
+      "order": 81,
+      "pieces": [
+        { "id": "g1", "kind": "goal", "color": "terracotta", "pos": [5,4], "target": [2,2] },
+        { "id": "g2", "kind": "goal", "color": "blue", "pos": [0,0], "target": [3,0] },
+        { "id": "h1", "kind": "helper", "color": "ochre", "pos": [5,0] },
+        { "id": "h2", "kind": "helper", "color": "sage", "pos": [3,3] },
+        { "id": "h3", "kind": "helper", "color": "rose", "pos": [0,1] },
+        { "id": "h4", "kind": "helper", "color": "ochre", "pos": [1,4] },
+        { "id": "h5", "kind": "helper", "color": "sage", "pos": [2,0] }
+      ],
+      "minMoves": 6,
+      "difficulty": 3
+    },
+    {
+      "id": "gen-101",
+      "source": "generated",
+      "status": "approved",
+      "order": 82,
+      "pieces": [
+        { "id": "g1", "kind": "goal", "color": "terracotta", "pos": [1,5], "target": [1,2] },
+        { "id": "g2", "kind": "goal", "color": "blue", "pos": [0,0], "target": [2,1] },
+        { "id": "h1", "kind": "helper", "color": "ochre", "pos": [1,1] },
+        { "id": "h2", "kind": "helper", "color": "sage", "pos": [1,4] },
+        { "id": "h3", "kind": "helper", "color": "rose", "pos": [2,0] },
+        { "id": "h4", "kind": "helper", "color": "ochre", "pos": [5,1] }
+      ],
+      "minMoves": 7,
+      "difficulty": 3
+    },
+    {
+      "id": "gen-102",
+      "source": "generated",
+      "status": "approved",
+      "order": 83,
+      "pieces": [
+        { "id": "g1", "kind": "goal", "color": "terracotta", "pos": [2,5], "target": [1,1] },
+        { "id": "g2", "kind": "goal", "color": "blue", "pos": [4,3], "target": [1,3] },
+        { "id": "h1", "kind": "helper", "color": "ochre", "pos": [0,2] },
+        { "id": "h2", "kind": "helper", "color": "sage", "pos": [1,2] },
+        { "id": "h3", "kind": "helper", "color": "rose", "pos": [3,0] },
+        { "id": "h4", "kind": "helper", "color": "ochre", "pos": [0,5] },
+        { "id": "h5", "kind": "helper", "color": "sage", "pos": [0,1] }
+      ],
+      "minMoves": 7,
+      "difficulty": 3
+    },
+    {
       "id": "gen-031",
       "source": "generated",
       "status": "approved",
-      "order": 29,
+      "order": 84,
       "pieces": [
         { "id": "g1", "kind": "goal", "color": "terracotta", "pos": [5,5], "target": [3,3] },
         { "id": "g2", "kind": "goal", "color": "blue", "pos": [2,0], "target": [2,2] },
@@ -422,75 +1236,151 @@
       "difficulty": 3
     },
     {
-      "id": "gen-032",
+      "id": "gen-103",
       "source": "generated",
       "status": "approved",
-      "order": 30,
+      "order": 85,
       "pieces": [
-        { "id": "g1", "kind": "goal", "color": "terracotta", "pos": [3,1], "target": [3,2] },
-        { "id": "g2", "kind": "goal", "color": "blue", "pos": [0,4], "target": [3,4] },
-        { "id": "h1", "kind": "helper", "color": "ochre", "pos": [1,4] },
+        { "id": "g1", "kind": "goal", "color": "terracotta", "pos": [0,0], "target": [1,3] },
+        { "id": "h1", "kind": "helper", "color": "ochre", "pos": [4,3] },
+        { "id": "h2", "kind": "helper", "color": "sage", "pos": [2,0] },
+        { "id": "h3", "kind": "helper", "color": "rose", "pos": [0,5] },
+        { "id": "h4", "kind": "helper", "color": "ochre", "pos": [0,2] },
+        { "id": "h5", "kind": "helper", "color": "sage", "pos": [3,3] }
+      ],
+      "minMoves": 7,
+      "difficulty": 3
+    },
+    {
+      "id": "gen-104",
+      "source": "generated",
+      "status": "approved",
+      "order": 86,
+      "pieces": [
+        { "id": "g1", "kind": "goal", "color": "terracotta", "pos": [3,5], "target": [3,3] },
+        { "id": "g2", "kind": "goal", "color": "blue", "pos": [5,2], "target": [1,2] },
+        { "id": "h1", "kind": "helper", "color": "ochre", "pos": [2,2] },
+        { "id": "h2", "kind": "helper", "color": "sage", "pos": [0,2] },
+        { "id": "h3", "kind": "helper", "color": "rose", "pos": [0,5] }
+      ],
+      "minMoves": 5,
+      "difficulty": 3
+    },
+    {
+      "id": "gen-105",
+      "source": "generated",
+      "status": "approved",
+      "order": 87,
+      "pieces": [
+        { "id": "g1", "kind": "goal", "color": "terracotta", "pos": [2,2], "target": [4,1] },
+        { "id": "g2", "kind": "goal", "color": "blue", "pos": [2,5], "target": [3,1] },
+        { "id": "h1", "kind": "helper", "color": "ochre", "pos": [0,0] },
         { "id": "h2", "kind": "helper", "color": "sage", "pos": [4,5] },
-        { "id": "h3", "kind": "helper", "color": "rose", "pos": [4,0] }
+        { "id": "h3", "kind": "helper", "color": "rose", "pos": [4,0] },
+        { "id": "h4", "kind": "helper", "color": "ochre", "pos": [5,4] }
       ],
       "minMoves": 6,
       "difficulty": 3
     },
     {
-      "id": "gen-033",
+      "id": "gen-106",
       "source": "generated",
       "status": "approved",
-      "order": 31,
+      "order": 88,
       "pieces": [
-        { "id": "g1", "kind": "goal", "color": "terracotta", "pos": [2,0], "target": [2,1] },
-        { "id": "g2", "kind": "goal", "color": "blue", "pos": [3,5], "target": [2,3] },
-        { "id": "h1", "kind": "helper", "color": "ochre", "pos": [1,3] },
-        { "id": "h2", "kind": "helper", "color": "sage", "pos": [0,3] },
-        { "id": "h3", "kind": "helper", "color": "rose", "pos": [4,1] },
-        { "id": "h4", "kind": "helper", "color": "ochre", "pos": [2,5] },
-        { "id": "h5", "kind": "helper", "color": "sage", "pos": [3,4] }
+        { "id": "g1", "kind": "goal", "color": "terracotta", "pos": [4,2], "target": [2,4] },
+        { "id": "h1", "kind": "helper", "color": "ochre", "pos": [0,4] },
+        { "id": "h2", "kind": "helper", "color": "sage", "pos": [0,5] },
+        { "id": "h3", "kind": "helper", "color": "rose", "pos": [5,5] },
+        { "id": "h4", "kind": "helper", "color": "ochre", "pos": [2,5] }
       ],
       "minMoves": 7,
-      "difficulty": 4
+      "difficulty": 3
     },
     {
-      "id": "gen-034",
+      "id": "gen-107",
       "source": "generated",
       "status": "approved",
-      "order": 32,
+      "order": 89,
       "pieces": [
-        { "id": "g1", "kind": "goal", "color": "terracotta", "pos": [0,3], "target": [2,1] },
-        { "id": "g2", "kind": "goal", "color": "blue", "pos": [1,0], "target": [4,2] },
-        { "id": "h1", "kind": "helper", "color": "ochre", "pos": [2,0] },
-        { "id": "h2", "kind": "helper", "color": "sage", "pos": [4,4] },
-        { "id": "h3", "kind": "helper", "color": "rose", "pos": [5,3] },
-        { "id": "h4", "kind": "helper", "color": "ochre", "pos": [5,1] },
-        { "id": "h5", "kind": "helper", "color": "sage", "pos": [5,2] }
+        { "id": "g1", "kind": "goal", "color": "terracotta", "pos": [2,5], "target": [3,5] },
+        { "id": "g2", "kind": "goal", "color": "blue", "pos": [4,4], "target": [3,3] },
+        { "id": "h1", "kind": "helper", "color": "ochre", "pos": [4,5] },
+        { "id": "h2", "kind": "helper", "color": "sage", "pos": [4,0] },
+        { "id": "h3", "kind": "helper", "color": "rose", "pos": [2,2] },
+        { "id": "h4", "kind": "helper", "color": "ochre", "pos": [3,0] }
       ],
       "minMoves": 7,
-      "difficulty": 4
+      "difficulty": 3
     },
     {
-      "id": "gen-035",
+      "id": "gen-108",
       "source": "generated",
       "status": "approved",
-      "order": 33,
+      "order": 90,
       "pieces": [
-        { "id": "g1", "kind": "goal", "color": "terracotta", "pos": [1,0], "target": [3,4] },
-        { "id": "g2", "kind": "goal", "color": "blue", "pos": [1,1], "target": [1,3] },
-        { "id": "h1", "kind": "helper", "color": "ochre", "pos": [2,2] },
-        { "id": "h2", "kind": "helper", "color": "sage", "pos": [0,4] },
-        { "id": "h3", "kind": "helper", "color": "rose", "pos": [4,2] },
-        { "id": "h4", "kind": "helper", "color": "ochre", "pos": [3,5] }
+        { "id": "g1", "kind": "goal", "color": "terracotta", "pos": [1,0], "target": [3,1] },
+        { "id": "g2", "kind": "goal", "color": "blue", "pos": [0,4], "target": [4,3] },
+        { "id": "h1", "kind": "helper", "color": "ochre", "pos": [5,3] },
+        { "id": "h2", "kind": "helper", "color": "sage", "pos": [0,2] },
+        { "id": "h3", "kind": "helper", "color": "rose", "pos": [0,1] },
+        { "id": "h4", "kind": "helper", "color": "ochre", "pos": [5,1] }
       ],
       "minMoves": 7,
-      "difficulty": 4
+      "difficulty": 3
+    },
+    {
+      "id": "gen-109",
+      "source": "generated",
+      "status": "approved",
+      "order": 91,
+      "pieces": [
+        { "id": "g1", "kind": "goal", "color": "terracotta", "pos": [2,3], "target": [3,4] },
+        { "id": "h1", "kind": "helper", "color": "ochre", "pos": [5,0] },
+        { "id": "h2", "kind": "helper", "color": "sage", "pos": [5,4] },
+        { "id": "h3", "kind": "helper", "color": "rose", "pos": [2,0] },
+        { "id": "h4", "kind": "helper", "color": "ochre", "pos": [3,5] },
+        { "id": "h5", "kind": "helper", "color": "sage", "pos": [3,1] }
+      ],
+      "minMoves": 5,
+      "difficulty": 3
+    },
+    {
+      "id": "test-003",
+      "source": "generated",
+      "status": "approved",
+      "order": 92,
+      "pieces": [
+        { "id": "g1", "kind": "goal", "color": "terracotta", "pos": [2,0], "target": [4,1] },
+        { "id": "g2", "kind": "goal", "color": "blue", "pos": [5,0], "target": [4,0] },
+        { "id": "h1", "kind": "helper", "color": "ochre", "pos": [1,0] },
+        { "id": "h2", "kind": "helper", "color": "sage", "pos": [0,5] },
+        { "id": "h3", "kind": "helper", "color": "plum", "pos": [4,5] }
+      ],
+      "minMoves": 5,
+      "difficulty": 3
+    },
+    {
+      "id": "gen-110",
+      "source": "generated",
+      "status": "approved",
+      "order": 93,
+      "pieces": [
+        { "id": "g1", "kind": "goal", "color": "terracotta", "pos": [4,5], "target": [1,3] },
+        { "id": "g2", "kind": "goal", "color": "blue", "pos": [2,3], "target": [4,4] },
+        { "id": "h1", "kind": "helper", "color": "ochre", "pos": [5,2] },
+        { "id": "h2", "kind": "helper", "color": "sage", "pos": [5,3] },
+        { "id": "h3", "kind": "helper", "color": "rose", "pos": [0,5] },
+        { "id": "h4", "kind": "helper", "color": "ochre", "pos": [0,2] }
+      ],
+      "minMoves": 5,
+      "difficulty": 3
     },
     {
       "id": "gen-036",
       "source": "generated",
       "status": "approved",
-      "order": 34,
+      "order": 94,
       "pieces": [
         { "id": "g1", "kind": "goal", "color": "terracotta", "pos": [4,3], "target": [3,3] },
         { "id": "g2", "kind": "goal", "color": "blue", "pos": [5,2], "target": [4,2] },
@@ -504,59 +1394,10 @@
       "difficulty": 4
     },
     {
-      "id": "test-004",
-      "source": "generated",
-      "status": "approved",
-      "order": 35,
-      "pieces": [
-        { "id": "g1", "kind": "goal", "color": "terracotta", "pos": [4,0], "target": [3,1] },
-        { "id": "g2", "kind": "goal", "color": "blue", "pos": [5,2], "target": [3,2] },
-        { "id": "h1", "kind": "helper", "color": "ochre", "pos": [0,0] },
-        { "id": "h2", "kind": "helper", "color": "sage", "pos": [2,0] },
-        { "id": "h3", "kind": "helper", "color": "plum", "pos": [3,0] },
-        { "id": "h4", "kind": "helper", "color": "ochre", "pos": [2,4] }
-      ],
-      "minMoves": 7,
-      "difficulty": 4
-    },
-    {
-      "id": "gen-037",
-      "source": "generated",
-      "status": "approved",
-      "order": 36,
-      "pieces": [
-        { "id": "g1", "kind": "goal", "color": "terracotta", "pos": [5,1], "target": [2,1] },
-        { "id": "g2", "kind": "goal", "color": "blue", "pos": [3,4], "target": [2,3] },
-        { "id": "h1", "kind": "helper", "color": "ochre", "pos": [3,0] },
-        { "id": "h2", "kind": "helper", "color": "sage", "pos": [1,0] },
-        { "id": "h3", "kind": "helper", "color": "rose", "pos": [0,0] },
-        { "id": "h4", "kind": "helper", "color": "ochre", "pos": [0,1] },
-        { "id": "h5", "kind": "helper", "color": "sage", "pos": [1,5] }
-      ],
-      "minMoves": 8,
-      "difficulty": 4
-    },
-    {
-      "id": "gen-038",
-      "source": "generated",
-      "status": "approved",
-      "order": 37,
-      "pieces": [
-        { "id": "g1", "kind": "goal", "color": "terracotta", "pos": [0,5], "target": [3,4] },
-        { "id": "g2", "kind": "goal", "color": "blue", "pos": [0,3], "target": [1,4] },
-        { "id": "h1", "kind": "helper", "color": "ochre", "pos": [4,5] },
-        { "id": "h2", "kind": "helper", "color": "sage", "pos": [3,0] },
-        { "id": "h3", "kind": "helper", "color": "rose", "pos": [5,5] },
-        { "id": "h4", "kind": "helper", "color": "ochre", "pos": [3,2] }
-      ],
-      "minMoves": 8,
-      "difficulty": 4
-    },
-    {
       "id": "gen-039",
       "source": "generated",
       "status": "approved",
-      "order": 38,
+      "order": 95,
       "pieces": [
         { "id": "g1", "kind": "goal", "color": "terracotta", "pos": [2,3], "target": [4,2] },
         { "id": "g2", "kind": "goal", "color": "blue", "pos": [4,0], "target": [3,1] },
@@ -570,10 +1411,44 @@
       "difficulty": 4
     },
     {
+      "id": "test-004",
+      "source": "generated",
+      "status": "approved",
+      "order": 96,
+      "pieces": [
+        { "id": "g1", "kind": "goal", "color": "terracotta", "pos": [4,0], "target": [3,1] },
+        { "id": "g2", "kind": "goal", "color": "blue", "pos": [5,2], "target": [3,2] },
+        { "id": "h1", "kind": "helper", "color": "ochre", "pos": [0,0] },
+        { "id": "h2", "kind": "helper", "color": "sage", "pos": [2,0] },
+        { "id": "h3", "kind": "helper", "color": "plum", "pos": [3,0] },
+        { "id": "h4", "kind": "helper", "color": "ochre", "pos": [2,4] }
+      ],
+      "minMoves": 7,
+      "difficulty": 4
+    },
+    {
+      "id": "gen-046",
+      "source": "generated",
+      "status": "approved",
+      "order": 97,
+      "pieces": [
+        { "id": "g1", "kind": "goal", "color": "terracotta", "pos": [5,2], "target": [4,3] },
+        { "id": "g2", "kind": "goal", "color": "blue", "pos": [3,0], "target": [3,2] },
+        { "id": "g3", "kind": "goal", "color": "plum", "pos": [1,4], "target": [3,3] },
+        { "id": "h1", "kind": "helper", "color": "ochre", "pos": [0,4] },
+        { "id": "h2", "kind": "helper", "color": "sage", "pos": [2,4] },
+        { "id": "h3", "kind": "helper", "color": "rose", "pos": [5,1] },
+        { "id": "h4", "kind": "helper", "color": "ochre", "pos": [4,5] },
+        { "id": "h5", "kind": "helper", "color": "sage", "pos": [2,0] }
+      ],
+      "minMoves": 10,
+      "difficulty": 4
+    },
+    {
       "id": "gen-040",
       "source": "generated",
       "status": "approved",
-      "order": 39,
+      "order": 98,
       "pieces": [
         { "id": "g1", "kind": "goal", "color": "terracotta", "pos": [3,5], "target": [3,4] },
         { "id": "g2", "kind": "goal", "color": "blue", "pos": [0,2], "target": [3,3] },
@@ -590,7 +1465,7 @@
       "id": "gen-041",
       "source": "generated",
       "status": "approved",
-      "order": 40,
+      "order": 99,
       "pieces": [
         { "id": "g1", "kind": "goal", "color": "terracotta", "pos": [3,5], "target": [3,3] },
         { "id": "g2", "kind": "goal", "color": "blue", "pos": [5,1], "target": [3,1] },
@@ -603,63 +1478,372 @@
       "difficulty": 4
     },
     {
-      "id": "gen-042",
+      "id": "gen-111",
       "source": "generated",
       "status": "approved",
-      "order": 41,
+      "order": 100,
       "pieces": [
-        { "id": "g1", "kind": "goal", "color": "terracotta", "pos": [2,1], "target": [2,3] },
-        { "id": "g2", "kind": "goal", "color": "blue", "pos": [5,0], "target": [2,4] },
-        { "id": "g3", "kind": "goal", "color": "plum", "pos": [3,4], "target": [1,3] },
-        { "id": "h1", "kind": "helper", "color": "ochre", "pos": [0,0] },
-        { "id": "h2", "kind": "helper", "color": "sage", "pos": [1,5] },
-        { "id": "h3", "kind": "helper", "color": "rose", "pos": [0,3] },
-        { "id": "h4", "kind": "helper", "color": "ochre", "pos": [4,4] }
-      ],
-      "minMoves": 9,
-      "difficulty": 5
-    },
-    {
-      "id": "gen-043",
-      "source": "generated",
-      "status": "approved",
-      "order": 42,
-      "pieces": [
-        { "id": "g1", "kind": "goal", "color": "terracotta", "pos": [0,5], "target": [3,5] },
-        { "id": "g2", "kind": "goal", "color": "blue", "pos": [2,1], "target": [4,2] },
-        { "id": "g3", "kind": "goal", "color": "plum", "pos": [0,0], "target": [2,4] },
-        { "id": "h1", "kind": "helper", "color": "ochre", "pos": [5,3] },
-        { "id": "h2", "kind": "helper", "color": "sage", "pos": [5,2] },
-        { "id": "h3", "kind": "helper", "color": "rose", "pos": [4,5] },
-        { "id": "h4", "kind": "helper", "color": "ochre", "pos": [1,4] },
-        { "id": "h5", "kind": "helper", "color": "sage", "pos": [3,1] }
-      ],
-      "minMoves": 9,
-      "difficulty": 5
-    },
-    {
-      "id": "gen-044",
-      "source": "generated",
-      "status": "approved",
-      "order": 43,
-      "pieces": [
-        { "id": "g1", "kind": "goal", "color": "terracotta", "pos": [3,0], "target": [1,2] },
-        { "id": "g2", "kind": "goal", "color": "blue", "pos": [0,0], "target": [2,3] },
-        { "id": "g3", "kind": "goal", "color": "plum", "pos": [4,5], "target": [4,4] },
-        { "id": "h1", "kind": "helper", "color": "ochre", "pos": [1,4] },
-        { "id": "h2", "kind": "helper", "color": "sage", "pos": [0,3] },
+        { "id": "g1", "kind": "goal", "color": "terracotta", "pos": [4,4], "target": [2,4] },
+        { "id": "h1", "kind": "helper", "color": "ochre", "pos": [1,2] },
+        { "id": "h2", "kind": "helper", "color": "sage", "pos": [5,3] },
         { "id": "h3", "kind": "helper", "color": "rose", "pos": [0,4] },
-        { "id": "h4", "kind": "helper", "color": "ochre", "pos": [3,1] },
+        { "id": "h4", "kind": "helper", "color": "ochre", "pos": [4,5] },
+        { "id": "h5", "kind": "helper", "color": "sage", "pos": [4,1] }
+      ],
+      "minMoves": 7,
+      "difficulty": 4
+    },
+    {
+      "id": "gen-112",
+      "source": "generated",
+      "status": "approved",
+      "order": 101,
+      "pieces": [
+        { "id": "g1", "kind": "goal", "color": "terracotta", "pos": [0,0], "target": [2,2] },
+        { "id": "g2", "kind": "goal", "color": "blue", "pos": [3,3], "target": [3,2] },
+        { "id": "h1", "kind": "helper", "color": "ochre", "pos": [5,1] },
+        { "id": "h2", "kind": "helper", "color": "sage", "pos": [0,3] },
+        { "id": "h3", "kind": "helper", "color": "rose", "pos": [5,0] },
+        { "id": "h4", "kind": "helper", "color": "ochre", "pos": [1,3] },
+        { "id": "h5", "kind": "helper", "color": "sage", "pos": [1,0] }
+      ],
+      "minMoves": 7,
+      "difficulty": 4
+    },
+    {
+      "id": "gen-038",
+      "source": "generated",
+      "status": "approved",
+      "order": 102,
+      "pieces": [
+        { "id": "g1", "kind": "goal", "color": "terracotta", "pos": [0,5], "target": [3,4] },
+        { "id": "g2", "kind": "goal", "color": "blue", "pos": [0,3], "target": [1,4] },
+        { "id": "h1", "kind": "helper", "color": "ochre", "pos": [4,5] },
+        { "id": "h2", "kind": "helper", "color": "sage", "pos": [3,0] },
+        { "id": "h3", "kind": "helper", "color": "rose", "pos": [5,5] },
+        { "id": "h4", "kind": "helper", "color": "ochre", "pos": [3,2] }
+      ],
+      "minMoves": 8,
+      "difficulty": 4
+    },
+    {
+      "id": "gen-113",
+      "source": "generated",
+      "status": "approved",
+      "order": 103,
+      "pieces": [
+        { "id": "g1", "kind": "goal", "color": "terracotta", "pos": [5,1], "target": [4,3] },
+        { "id": "h1", "kind": "helper", "color": "ochre", "pos": [1,1] },
+        { "id": "h2", "kind": "helper", "color": "sage", "pos": [2,4] },
+        { "id": "h3", "kind": "helper", "color": "rose", "pos": [0,1] },
+        { "id": "h4", "kind": "helper", "color": "ochre", "pos": [2,2] },
+        { "id": "h5", "kind": "helper", "color": "sage", "pos": [4,4] }
+      ],
+      "minMoves": 7,
+      "difficulty": 4
+    },
+    {
+      "id": "gen-114",
+      "source": "generated",
+      "status": "approved",
+      "order": 104,
+      "pieces": [
+        { "id": "g1", "kind": "goal", "color": "terracotta", "pos": [1,1], "target": [2,4] },
+        { "id": "g2", "kind": "goal", "color": "blue", "pos": [5,0], "target": [5,2] },
+        { "id": "h1", "kind": "helper", "color": "ochre", "pos": [5,3] },
+        { "id": "h2", "kind": "helper", "color": "sage", "pos": [1,5] },
+        { "id": "h3", "kind": "helper", "color": "rose", "pos": [0,2] },
+        { "id": "h4", "kind": "helper", "color": "ochre", "pos": [4,5] },
+        { "id": "h5", "kind": "helper", "color": "sage", "pos": [4,1] }
+      ],
+      "minMoves": 7,
+      "difficulty": 4
+    },
+    {
+      "id": "gen-115",
+      "source": "generated",
+      "status": "approved",
+      "order": 105,
+      "pieces": [
+        { "id": "g1", "kind": "goal", "color": "terracotta", "pos": [1,3], "target": [3,2] },
+        { "id": "h1", "kind": "helper", "color": "ochre", "pos": [0,0] },
+        { "id": "h2", "kind": "helper", "color": "sage", "pos": [5,0] },
+        { "id": "h3", "kind": "helper", "color": "rose", "pos": [2,0] },
+        { "id": "h4", "kind": "helper", "color": "ochre", "pos": [0,2] },
         { "id": "h5", "kind": "helper", "color": "sage", "pos": [5,3] }
       ],
+      "minMoves": 8,
+      "difficulty": 4
+    },
+    {
+      "id": "gen-116",
+      "source": "generated",
+      "status": "approved",
+      "order": 106,
+      "pieces": [
+        { "id": "g1", "kind": "goal", "color": "terracotta", "pos": [3,0], "target": [1,2] },
+        { "id": "g2", "kind": "goal", "color": "blue", "pos": [5,1], "target": [2,3] },
+        { "id": "h1", "kind": "helper", "color": "ochre", "pos": [0,4] },
+        { "id": "h2", "kind": "helper", "color": "sage", "pos": [0,2] },
+        { "id": "h3", "kind": "helper", "color": "rose", "pos": [5,3] },
+        { "id": "h4", "kind": "helper", "color": "ochre", "pos": [2,4] },
+        { "id": "h5", "kind": "helper", "color": "sage", "pos": [1,3] }
+      ],
+      "minMoves": 8,
+      "difficulty": 4
+    },
+    {
+      "id": "gen-117",
+      "source": "generated",
+      "status": "approved",
+      "order": 107,
+      "pieces": [
+        { "id": "g1", "kind": "goal", "color": "terracotta", "pos": [0,4], "target": [3,3] },
+        { "id": "h1", "kind": "helper", "color": "ochre", "pos": [0,0] },
+        { "id": "h2", "kind": "helper", "color": "sage", "pos": [4,4] },
+        { "id": "h3", "kind": "helper", "color": "rose", "pos": [4,5] },
+        { "id": "h4", "kind": "helper", "color": "ochre", "pos": [2,1] },
+        { "id": "h5", "kind": "helper", "color": "sage", "pos": [5,1] }
+      ],
+      "minMoves": 7,
+      "difficulty": 4
+    },
+    {
+      "id": "gen-118",
+      "source": "generated",
+      "status": "approved",
+      "order": 108,
+      "pieces": [
+        { "id": "g1", "kind": "goal", "color": "terracotta", "pos": [0,5], "target": [1,3] },
+        { "id": "g2", "kind": "goal", "color": "blue", "pos": [2,5], "target": [2,4] },
+        { "id": "h1", "kind": "helper", "color": "ochre", "pos": [1,0] },
+        { "id": "h2", "kind": "helper", "color": "sage", "pos": [5,2] },
+        { "id": "h3", "kind": "helper", "color": "rose", "pos": [1,2] },
+        { "id": "h4", "kind": "helper", "color": "ochre", "pos": [4,2] }
+      ],
+      "minMoves": 7,
+      "difficulty": 4
+    },
+    {
+      "id": "gen-119",
+      "source": "generated",
+      "status": "approved",
+      "order": 109,
+      "pieces": [
+        { "id": "g1", "kind": "goal", "color": "terracotta", "pos": [2,1], "target": [3,2] },
+        { "id": "g2", "kind": "goal", "color": "blue", "pos": [0,5], "target": [0,2] },
+        { "id": "h1", "kind": "helper", "color": "ochre", "pos": [5,1] },
+        { "id": "h2", "kind": "helper", "color": "sage", "pos": [0,1] },
+        { "id": "h3", "kind": "helper", "color": "rose", "pos": [2,5] },
+        { "id": "h4", "kind": "helper", "color": "ochre", "pos": [4,5] },
+        { "id": "h5", "kind": "helper", "color": "sage", "pos": [1,2] }
+      ],
+      "minMoves": 7,
+      "difficulty": 4
+    },
+    {
+      "id": "gen-120",
+      "source": "generated",
+      "status": "approved",
+      "order": 110,
+      "pieces": [
+        { "id": "g1", "kind": "goal", "color": "terracotta", "pos": [4,0], "target": [3,3] },
+        { "id": "h1", "kind": "helper", "color": "ochre", "pos": [4,5] },
+        { "id": "h2", "kind": "helper", "color": "sage", "pos": [5,1] },
+        { "id": "h3", "kind": "helper", "color": "rose", "pos": [0,4] },
+        { "id": "h4", "kind": "helper", "color": "ochre", "pos": [2,1] },
+        { "id": "h5", "kind": "helper", "color": "rose", "pos": [4,1] }
+      ],
+      "minMoves": 7,
+      "difficulty": 4
+    },
+    {
+      "id": "gen-121",
+      "source": "generated",
+      "status": "approved",
+      "order": 111,
+      "pieces": [
+        { "id": "g1", "kind": "goal", "color": "terracotta", "pos": [2,2], "target": [2,4] },
+        { "id": "g2", "kind": "goal", "color": "blue", "pos": [4,1], "target": [1,2] },
+        { "id": "h1", "kind": "helper", "color": "ochre", "pos": [0,4] },
+        { "id": "h2", "kind": "helper", "color": "sage", "pos": [1,5] },
+        { "id": "h3", "kind": "helper", "color": "rose", "pos": [4,5] },
+        { "id": "h4", "kind": "helper", "color": "ochre", "pos": [0,2] },
+        { "id": "h5", "kind": "helper", "color": "sage", "pos": [0,0] }
+      ],
+      "minMoves": 8,
+      "difficulty": 4
+    },
+    {
+      "id": "gen-122",
+      "source": "generated",
+      "status": "approved",
+      "order": 112,
+      "pieces": [
+        { "id": "g1", "kind": "goal", "color": "terracotta", "pos": [5,4], "target": [3,2] },
+        { "id": "h1", "kind": "helper", "color": "ochre", "pos": [0,0] },
+        { "id": "h2", "kind": "helper", "color": "sage", "pos": [0,2] },
+        { "id": "h3", "kind": "helper", "color": "rose", "pos": [5,0] },
+        { "id": "h4", "kind": "helper", "color": "ochre", "pos": [1,4] },
+        { "id": "h5", "kind": "helper", "color": "sage", "pos": [4,3] }
+      ],
       "minMoves": 9,
-      "difficulty": 5
+      "difficulty": 4
+    },
+    {
+      "id": "gen-123",
+      "source": "generated",
+      "status": "approved",
+      "order": 113,
+      "pieces": [
+        { "id": "g1", "kind": "goal", "color": "terracotta", "pos": [5,3], "target": [4,2] },
+        { "id": "g2", "kind": "goal", "color": "blue", "pos": [5,4], "target": [4,3] },
+        { "id": "h1", "kind": "helper", "color": "ochre", "pos": [5,5] },
+        { "id": "h2", "kind": "helper", "color": "sage", "pos": [4,1] },
+        { "id": "h3", "kind": "helper", "color": "rose", "pos": [0,5] },
+        { "id": "h4", "kind": "helper", "color": "ochre", "pos": [3,3] },
+        { "id": "h5", "kind": "helper", "color": "sage", "pos": [0,3] }
+      ],
+      "minMoves": 7,
+      "difficulty": 4
+    },
+    {
+      "id": "gen-124",
+      "source": "generated",
+      "status": "approved",
+      "order": 114,
+      "pieces": [
+        { "id": "g1", "kind": "goal", "color": "terracotta", "pos": [2,4], "target": [2,3] },
+        { "id": "h1", "kind": "helper", "color": "ochre", "pos": [5,4] },
+        { "id": "h2", "kind": "helper", "color": "sage", "pos": [0,0] },
+        { "id": "h3", "kind": "helper", "color": "rose", "pos": [5,1] },
+        { "id": "h4", "kind": "helper", "color": "ochre", "pos": [1,1] },
+        { "id": "h5", "kind": "helper", "color": "sage", "pos": [0,3] }
+      ],
+      "minMoves": 7,
+      "difficulty": 4
+    },
+    {
+      "id": "gen-125",
+      "source": "generated",
+      "status": "approved",
+      "order": 115,
+      "pieces": [
+        { "id": "g1", "kind": "goal", "color": "terracotta", "pos": [3,0], "target": [4,2] },
+        { "id": "g2", "kind": "goal", "color": "blue", "pos": [5,3], "target": [3,3] },
+        { "id": "h1", "kind": "helper", "color": "ochre", "pos": [5,2] },
+        { "id": "h2", "kind": "helper", "color": "sage", "pos": [0,0] },
+        { "id": "h3", "kind": "helper", "color": "rose", "pos": [3,4] },
+        { "id": "h4", "kind": "helper", "color": "ochre", "pos": [5,4] },
+        { "id": "h5", "kind": "helper", "color": "sage", "pos": [0,3] }
+      ],
+      "minMoves": 7,
+      "difficulty": 4
+    },
+    {
+      "id": "gen-126",
+      "source": "generated",
+      "status": "approved",
+      "order": 116,
+      "pieces": [
+        { "id": "g1", "kind": "goal", "color": "terracotta", "pos": [5,2], "target": [2,1] },
+        { "id": "g2", "kind": "goal", "color": "blue", "pos": [3,5], "target": [2,2] },
+        { "id": "h1", "kind": "helper", "color": "ochre", "pos": [1,0] },
+        { "id": "h2", "kind": "helper", "color": "sage", "pos": [4,0] },
+        { "id": "h3", "kind": "helper", "color": "rose", "pos": [4,2] },
+        { "id": "h4", "kind": "helper", "color": "ochre", "pos": [1,2] }
+      ],
+      "minMoves": 7,
+      "difficulty": 4
+    },
+    {
+      "id": "gen-127",
+      "source": "generated",
+      "status": "approved",
+      "order": 117,
+      "pieces": [
+        { "id": "g1", "kind": "goal", "color": "terracotta", "pos": [2,1], "target": [3,2] },
+        { "id": "g2", "kind": "goal", "color": "blue", "pos": [2,4], "target": [3,1] },
+        { "id": "h1", "kind": "helper", "color": "ochre", "pos": [0,4] },
+        { "id": "h2", "kind": "helper", "color": "sage", "pos": [5,1] },
+        { "id": "h3", "kind": "helper", "color": "rose", "pos": [2,0] },
+        { "id": "h4", "kind": "helper", "color": "ochre", "pos": [3,4] }
+      ],
+      "minMoves": 7,
+      "difficulty": 4
+    },
+    {
+      "id": "gen-128",
+      "source": "generated",
+      "status": "approved",
+      "order": 118,
+      "pieces": [
+        { "id": "g1", "kind": "goal", "color": "terracotta", "pos": [5,3], "target": [4,4] },
+        { "id": "g2", "kind": "goal", "color": "blue", "pos": [3,0], "target": [1,2] },
+        { "id": "h1", "kind": "helper", "color": "ochre", "pos": [4,5] },
+        { "id": "h2", "kind": "helper", "color": "sage", "pos": [0,0] },
+        { "id": "h3", "kind": "helper", "color": "rose", "pos": [0,3] },
+        { "id": "h4", "kind": "helper", "color": "ochre", "pos": [3,2] },
+        { "id": "h5", "kind": "helper", "color": "sage", "pos": [5,0] }
+      ],
+      "minMoves": 9,
+      "difficulty": 4
+    },
+    {
+      "id": "gen-129",
+      "source": "generated",
+      "status": "approved",
+      "order": 119,
+      "pieces": [
+        { "id": "g1", "kind": "goal", "color": "terracotta", "pos": [4,5], "target": [3,4] },
+        { "id": "h1", "kind": "helper", "color": "ochre", "pos": [2,5] },
+        { "id": "h2", "kind": "helper", "color": "sage", "pos": [5,1] },
+        { "id": "h3", "kind": "helper", "color": "rose", "pos": [1,1] },
+        { "id": "h4", "kind": "helper", "color": "ochre", "pos": [3,0] },
+        { "id": "h5", "kind": "helper", "color": "sage", "pos": [3,1] }
+      ],
+      "minMoves": 7,
+      "difficulty": 4
+    },
+    {
+      "id": "gen-130",
+      "source": "generated",
+      "status": "approved",
+      "order": 120,
+      "pieces": [
+        { "id": "g1", "kind": "goal", "color": "terracotta", "pos": [1,3], "target": [2,4] },
+        { "id": "g2", "kind": "goal", "color": "blue", "pos": [3,0], "target": [3,3] },
+        { "id": "h1", "kind": "helper", "color": "ochre", "pos": [5,3] },
+        { "id": "h2", "kind": "helper", "color": "sage", "pos": [5,5] },
+        { "id": "h3", "kind": "helper", "color": "rose", "pos": [1,0] },
+        { "id": "h4", "kind": "helper", "color": "ochre", "pos": [1,5] },
+        { "id": "h5", "kind": "helper", "color": "sage", "pos": [2,2] }
+      ],
+      "minMoves": 7,
+      "difficulty": 4
+    },
+    {
+      "id": "gen-037",
+      "source": "generated",
+      "status": "approved",
+      "order": 121,
+      "pieces": [
+        { "id": "g1", "kind": "goal", "color": "terracotta", "pos": [5,1], "target": [2,1] },
+        { "id": "g2", "kind": "goal", "color": "blue", "pos": [3,4], "target": [2,3] },
+        { "id": "h1", "kind": "helper", "color": "ochre", "pos": [3,0] },
+        { "id": "h2", "kind": "helper", "color": "sage", "pos": [1,0] },
+        { "id": "h3", "kind": "helper", "color": "rose", "pos": [0,0] },
+        { "id": "h4", "kind": "helper", "color": "ochre", "pos": [0,1] },
+        { "id": "h5", "kind": "helper", "color": "sage", "pos": [1,5] }
+      ],
+      "minMoves": 8,
+      "difficulty": 4
     },
     {
       "id": "test-005",
       "source": "generated",
       "status": "approved",
-      "order": 44,
+      "order": 122,
       "pieces": [
         { "id": "g1", "kind": "goal", "color": "terracotta", "pos": [4,5], "target": [4,2] },
         { "id": "g2", "kind": "goal", "color": "blue", "pos": [5,4], "target": [3,3] },
@@ -674,63 +1858,45 @@
       "difficulty": 5
     },
     {
-      "id": "gen-045",
+      "id": "gen-050",
       "source": "generated",
       "status": "approved",
-      "order": 45,
+      "order": 123,
       "pieces": [
-        { "id": "g1", "kind": "goal", "color": "terracotta", "pos": [5,3], "target": [3,3] },
-        { "id": "g2", "kind": "goal", "color": "blue", "pos": [1,5], "target": [2,4] },
-        { "id": "g3", "kind": "goal", "color": "plum", "pos": [3,0], "target": [3,1] },
-        { "id": "h1", "kind": "helper", "color": "ochre", "pos": [4,3] },
-        { "id": "h2", "kind": "helper", "color": "sage", "pos": [2,1] },
-        { "id": "h3", "kind": "helper", "color": "rose", "pos": [0,1] },
-        { "id": "h4", "kind": "helper", "color": "ochre", "pos": [1,1] },
-        { "id": "h5", "kind": "helper", "color": "sage", "pos": [5,5] }
+        { "id": "g1", "kind": "goal", "color": "terracotta", "pos": [2,5], "target": [3,3] },
+        { "id": "g2", "kind": "goal", "color": "blue", "pos": [4,2], "target": [2,2] },
+        { "id": "g3", "kind": "goal", "color": "plum", "pos": [3,0], "target": [1,1] },
+        { "id": "h1", "kind": "helper", "color": "ochre", "pos": [0,2] },
+        { "id": "h2", "kind": "helper", "color": "sage", "pos": [1,4] },
+        { "id": "h3", "kind": "helper", "color": "rose", "pos": [5,3] },
+        { "id": "h4", "kind": "helper", "color": "sage", "pos": [0,1] }
       ],
-      "minMoves": 10,
+      "minMoves": 11,
       "difficulty": 5
     },
     {
-      "id": "gen-046",
+      "id": "gen-043",
       "source": "generated",
       "status": "approved",
-      "order": 46,
+      "order": 124,
       "pieces": [
-        { "id": "g1", "kind": "goal", "color": "terracotta", "pos": [5,2], "target": [4,3] },
-        { "id": "g2", "kind": "goal", "color": "blue", "pos": [3,0], "target": [3,2] },
-        { "id": "g3", "kind": "goal", "color": "plum", "pos": [1,4], "target": [3,3] },
-        { "id": "h1", "kind": "helper", "color": "ochre", "pos": [0,4] },
-        { "id": "h2", "kind": "helper", "color": "sage", "pos": [2,4] },
-        { "id": "h3", "kind": "helper", "color": "rose", "pos": [5,1] },
-        { "id": "h4", "kind": "helper", "color": "ochre", "pos": [4,5] },
-        { "id": "h5", "kind": "helper", "color": "sage", "pos": [2,0] }
+        { "id": "g1", "kind": "goal", "color": "terracotta", "pos": [0,5], "target": [3,5] },
+        { "id": "g2", "kind": "goal", "color": "blue", "pos": [2,1], "target": [4,2] },
+        { "id": "g3", "kind": "goal", "color": "plum", "pos": [0,0], "target": [2,4] },
+        { "id": "h1", "kind": "helper", "color": "ochre", "pos": [5,3] },
+        { "id": "h2", "kind": "helper", "color": "sage", "pos": [5,2] },
+        { "id": "h3", "kind": "helper", "color": "rose", "pos": [4,5] },
+        { "id": "h4", "kind": "helper", "color": "ochre", "pos": [1,4] },
+        { "id": "h5", "kind": "helper", "color": "sage", "pos": [3,1] }
       ],
-      "minMoves": 10,
-      "difficulty": 5
-    },
-    {
-      "id": "gen-047",
-      "source": "generated",
-      "status": "approved",
-      "order": 47,
-      "pieces": [
-        { "id": "g1", "kind": "goal", "color": "terracotta", "pos": [1,1], "target": [1,3] },
-        { "id": "g2", "kind": "goal", "color": "blue", "pos": [0,0], "target": [1,2] },
-        { "id": "g3", "kind": "goal", "color": "plum", "pos": [4,3], "target": [2,2] },
-        { "id": "h1", "kind": "helper", "color": "ochre", "pos": [1,0] },
-        { "id": "h2", "kind": "helper", "color": "sage", "pos": [1,5] },
-        { "id": "h3", "kind": "helper", "color": "rose", "pos": [0,4] },
-        { "id": "h4", "kind": "helper", "color": "sage", "pos": [2,0] }
-      ],
-      "minMoves": 10,
+      "minMoves": 9,
       "difficulty": 5
     },
     {
       "id": "gen-048",
       "source": "generated",
       "status": "approved",
-      "order": 48,
+      "order": 125,
       "pieces": [
         { "id": "g1", "kind": "goal", "color": "terracotta", "pos": [2,3], "target": [3,2] },
         { "id": "g2", "kind": "goal", "color": "blue", "pos": [3,5], "target": [3,3] },
@@ -748,7 +1914,7 @@
       "id": "gen-049",
       "source": "generated",
       "status": "approved",
-      "order": 49,
+      "order": 126,
       "pieces": [
         { "id": "g1", "kind": "goal", "color": "terracotta", "pos": [5,4], "target": [2,2] },
         { "id": "g2", "kind": "goal", "color": "blue", "pos": [4,2], "target": [3,2] },
@@ -762,20 +1928,412 @@
       "difficulty": 5
     },
     {
-      "id": "gen-050",
+      "id": "gen-131",
       "source": "generated",
       "status": "approved",
-      "order": 50,
+      "order": 127,
       "pieces": [
-        { "id": "g1", "kind": "goal", "color": "terracotta", "pos": [2,5], "target": [3,3] },
-        { "id": "g2", "kind": "goal", "color": "blue", "pos": [4,2], "target": [2,2] },
-        { "id": "g3", "kind": "goal", "color": "plum", "pos": [3,0], "target": [1,1] },
-        { "id": "h1", "kind": "helper", "color": "ochre", "pos": [0,2] },
-        { "id": "h2", "kind": "helper", "color": "sage", "pos": [1,4] },
-        { "id": "h3", "kind": "helper", "color": "rose", "pos": [5,3] },
-        { "id": "h4", "kind": "helper", "color": "sage", "pos": [0,1] }
+        { "id": "g1", "kind": "goal", "color": "terracotta", "pos": [1,5], "target": [2,3] },
+        { "id": "g2", "kind": "goal", "color": "blue", "pos": [0,4], "target": [0,2] },
+        { "id": "g3", "kind": "goal", "color": "plum", "pos": [5,3], "target": [2,4] },
+        { "id": "h1", "kind": "helper", "color": "ochre", "pos": [3,5] },
+        { "id": "h2", "kind": "helper", "color": "sage", "pos": [3,3] },
+        { "id": "h3", "kind": "helper", "color": "rose", "pos": [0,1] },
+        { "id": "h4", "kind": "helper", "color": "ochre", "pos": [4,2] },
+        { "id": "h5", "kind": "helper", "color": "sage", "pos": [3,0] }
+      ],
+      "minMoves": 9,
+      "difficulty": 5
+    },
+    {
+      "id": "gen-132",
+      "source": "generated",
+      "status": "approved",
+      "order": 128,
+      "pieces": [
+        { "id": "g1", "kind": "goal", "color": "terracotta", "pos": [5,5], "target": [4,4] },
+        { "id": "h1", "kind": "helper", "color": "ochre", "pos": [5,3] },
+        { "id": "h2", "kind": "helper", "color": "sage", "pos": [0,0] },
+        { "id": "h3", "kind": "helper", "color": "rose", "pos": [5,0] },
+        { "id": "h4", "kind": "helper", "color": "ochre", "pos": [1,1] },
+        { "id": "h5", "kind": "helper", "color": "sage", "pos": [0,4] }
+      ],
+      "minMoves": 9,
+      "difficulty": 5
+    },
+    {
+      "id": "gen-133",
+      "source": "generated",
+      "status": "approved",
+      "order": 129,
+      "pieces": [
+        { "id": "g1", "kind": "goal", "color": "terracotta", "pos": [5,2], "target": [4,4] },
+        { "id": "g2", "kind": "goal", "color": "blue", "pos": [0,3], "target": [3,2] },
+        { "id": "h1", "kind": "helper", "color": "ochre", "pos": [3,1] },
+        { "id": "h2", "kind": "helper", "color": "sage", "pos": [1,0] },
+        { "id": "h3", "kind": "helper", "color": "rose", "pos": [4,5] },
+        { "id": "h4", "kind": "helper", "color": "ochre", "pos": [2,3] },
+        { "id": "h5", "kind": "helper", "color": "sage", "pos": [5,0] }
+      ],
+      "minMoves": 9,
+      "difficulty": 5
+    },
+    {
+      "id": "gen-134",
+      "source": "generated",
+      "status": "approved",
+      "order": 130,
+      "pieces": [
+        { "id": "g1", "kind": "goal", "color": "terracotta", "pos": [4,4], "target": [2,1] },
+        { "id": "g2", "kind": "goal", "color": "blue", "pos": [2,4], "target": [3,3] },
+        { "id": "g3", "kind": "goal", "color": "plum", "pos": [5,3], "target": [4,3] },
+        { "id": "h1", "kind": "helper", "color": "ochre", "pos": [0,1] },
+        { "id": "h2", "kind": "helper", "color": "sage", "pos": [3,5] },
+        { "id": "h3", "kind": "helper", "color": "rose", "pos": [4,0] },
+        { "id": "h4", "kind": "helper", "color": "ochre", "pos": [5,5] },
+        { "id": "h5", "kind": "helper", "color": "sage", "pos": [1,1] }
+      ],
+      "minMoves": 10,
+      "difficulty": 5
+    },
+    {
+      "id": "gen-135",
+      "source": "generated",
+      "status": "approved",
+      "order": 131,
+      "pieces": [
+        { "id": "g1", "kind": "goal", "color": "terracotta", "pos": [5,3], "target": [3,3] },
+        { "id": "g2", "kind": "goal", "color": "blue", "pos": [4,0], "target": [4,2] },
+        { "id": "h1", "kind": "helper", "color": "ochre", "pos": [1,4] },
+        { "id": "h2", "kind": "helper", "color": "sage", "pos": [5,0] },
+        { "id": "h3", "kind": "helper", "color": "rose", "pos": [3,2] },
+        { "id": "h4", "kind": "helper", "color": "ochre", "pos": [0,2] },
+        { "id": "h5", "kind": "helper", "color": "sage", "pos": [2,0] }
+      ],
+      "minMoves": 9,
+      "difficulty": 5
+    },
+    {
+      "id": "gen-136",
+      "source": "generated",
+      "status": "approved",
+      "order": 132,
+      "pieces": [
+        { "id": "g1", "kind": "goal", "color": "terracotta", "pos": [0,4], "target": [2,3] },
+        { "id": "h1", "kind": "helper", "color": "ochre", "pos": [5,3] },
+        { "id": "h2", "kind": "helper", "color": "sage", "pos": [4,5] },
+        { "id": "h3", "kind": "helper", "color": "rose", "pos": [5,0] },
+        { "id": "h4", "kind": "helper", "color": "ochre", "pos": [5,5] },
+        { "id": "h5", "kind": "helper", "color": "sage", "pos": [1,2] }
+      ],
+      "minMoves": 9,
+      "difficulty": 5
+    },
+    {
+      "id": "gen-137",
+      "source": "generated",
+      "status": "approved",
+      "order": 133,
+      "pieces": [
+        { "id": "g1", "kind": "goal", "color": "terracotta", "pos": [2,0], "target": [3,1] },
+        { "id": "g2", "kind": "goal", "color": "blue", "pos": [4,4], "target": [3,2] },
+        { "id": "g3", "kind": "goal", "color": "plum", "pos": [0,2], "target": [3,3] },
+        { "id": "h1", "kind": "helper", "color": "ochre", "pos": [2,5] },
+        { "id": "h2", "kind": "helper", "color": "sage", "pos": [0,4] },
+        { "id": "h3", "kind": "helper", "color": "rose", "pos": [1,2] },
+        { "id": "h4", "kind": "helper", "color": "ochre", "pos": [4,5] },
+        { "id": "h5", "kind": "helper", "color": "sage", "pos": [5,1] }
       ],
       "minMoves": 11,
+      "difficulty": 5
+    },
+    {
+      "id": "gen-138",
+      "source": "generated",
+      "status": "approved",
+      "order": 134,
+      "pieces": [
+        { "id": "g1", "kind": "goal", "color": "terracotta", "pos": [4,5], "target": [2,4] },
+        { "id": "h1", "kind": "helper", "color": "ochre", "pos": [0,0] },
+        { "id": "h2", "kind": "helper", "color": "sage", "pos": [2,1] },
+        { "id": "h3", "kind": "helper", "color": "rose", "pos": [0,5] },
+        { "id": "h4", "kind": "helper", "color": "ochre", "pos": [0,2] },
+        { "id": "h5", "kind": "helper", "color": "sage", "pos": [5,1] }
+      ],
+      "minMoves": 9,
+      "difficulty": 5
+    },
+    {
+      "id": "gen-139",
+      "source": "generated",
+      "status": "approved",
+      "order": 135,
+      "pieces": [
+        { "id": "g1", "kind": "goal", "color": "terracotta", "pos": [2,1], "target": [2,4] },
+        { "id": "g2", "kind": "goal", "color": "blue", "pos": [3,4], "target": [2,3] },
+        { "id": "h1", "kind": "helper", "color": "ochre", "pos": [5,5] },
+        { "id": "h2", "kind": "helper", "color": "sage", "pos": [5,3] },
+        { "id": "h3", "kind": "helper", "color": "rose", "pos": [1,5] },
+        { "id": "h4", "kind": "helper", "color": "ochre", "pos": [0,1] }
+      ],
+      "minMoves": 9,
+      "difficulty": 5
+    },
+    {
+      "id": "gen-140",
+      "source": "generated",
+      "status": "approved",
+      "order": 136,
+      "pieces": [
+        { "id": "g1", "kind": "goal", "color": "terracotta", "pos": [5,1], "target": [3,1] },
+        { "id": "g2", "kind": "goal", "color": "blue", "pos": [3,5], "target": [2,5] },
+        { "id": "g3", "kind": "goal", "color": "plum", "pos": [1,5], "target": [2,3] },
+        { "id": "h1", "kind": "helper", "color": "ochre", "pos": [5,2] },
+        { "id": "h2", "kind": "helper", "color": "sage", "pos": [2,1] },
+        { "id": "h3", "kind": "helper", "color": "rose", "pos": [4,4] },
+        { "id": "h4", "kind": "helper", "color": "ochre", "pos": [0,1] }
+      ],
+      "minMoves": 9,
+      "difficulty": 5
+    },
+    {
+      "id": "gen-141",
+      "source": "generated",
+      "status": "approved",
+      "order": 137,
+      "pieces": [
+        { "id": "g1", "kind": "goal", "color": "terracotta", "pos": [2,3], "target": [4,3] },
+        { "id": "h1", "kind": "helper", "color": "ochre", "pos": [0,2] },
+        { "id": "h2", "kind": "helper", "color": "sage", "pos": [5,4] },
+        { "id": "h3", "kind": "helper", "color": "rose", "pos": [4,1] },
+        { "id": "h4", "kind": "helper", "color": "ochre", "pos": [3,5] },
+        { "id": "h5", "kind": "helper", "color": "sage", "pos": [2,1] }
+      ],
+      "minMoves": 9,
+      "difficulty": 5
+    },
+    {
+      "id": "gen-047",
+      "source": "generated",
+      "status": "approved",
+      "order": 138,
+      "pieces": [
+        { "id": "g1", "kind": "goal", "color": "terracotta", "pos": [1,1], "target": [1,3] },
+        { "id": "g2", "kind": "goal", "color": "blue", "pos": [0,0], "target": [1,2] },
+        { "id": "g3", "kind": "goal", "color": "plum", "pos": [4,3], "target": [2,2] },
+        { "id": "h1", "kind": "helper", "color": "ochre", "pos": [1,0] },
+        { "id": "h2", "kind": "helper", "color": "sage", "pos": [1,5] },
+        { "id": "h3", "kind": "helper", "color": "rose", "pos": [0,4] },
+        { "id": "h4", "kind": "helper", "color": "sage", "pos": [2,0] }
+      ],
+      "minMoves": 10,
+      "difficulty": 5
+    },
+    {
+      "id": "gen-142",
+      "source": "generated",
+      "status": "approved",
+      "order": 139,
+      "pieces": [
+        { "id": "g1", "kind": "goal", "color": "terracotta", "pos": [4,4], "target": [2,2] },
+        { "id": "g2", "kind": "goal", "color": "blue", "pos": [0,3], "target": [1,2] },
+        { "id": "g3", "kind": "goal", "color": "plum", "pos": [4,3], "target": [2,1] },
+        { "id": "h1", "kind": "helper", "color": "ochre", "pos": [0,1] },
+        { "id": "h2", "kind": "helper", "color": "sage", "pos": [0,4] },
+        { "id": "h3", "kind": "helper", "color": "rose", "pos": [4,2] },
+        { "id": "h4", "kind": "helper", "color": "ochre", "pos": [4,0] },
+        { "id": "h5", "kind": "helper", "color": "sage", "pos": [3,5] }
+      ],
+      "minMoves": 10,
+      "difficulty": 5
+    },
+    {
+      "id": "gen-143",
+      "source": "generated",
+      "status": "approved",
+      "order": 140,
+      "pieces": [
+        { "id": "g1", "kind": "goal", "color": "terracotta", "pos": [1,5], "target": [2,4] },
+        { "id": "g2", "kind": "goal", "color": "blue", "pos": [1,3], "target": [2,2] },
+        { "id": "g3", "kind": "goal", "color": "plum", "pos": [4,0], "target": [2,1] },
+        { "id": "h1", "kind": "helper", "color": "ochre", "pos": [2,0] },
+        { "id": "h2", "kind": "helper", "color": "sage", "pos": [0,0] },
+        { "id": "h3", "kind": "helper", "color": "rose", "pos": [3,5] },
+        { "id": "h4", "kind": "helper", "color": "ochre", "pos": [4,3] },
+        { "id": "h5", "kind": "helper", "color": "sage", "pos": [3,1] }
+      ],
+      "minMoves": 9,
+      "difficulty": 5
+    },
+    {
+      "id": "gen-044",
+      "source": "generated",
+      "status": "approved",
+      "order": 141,
+      "pieces": [
+        { "id": "g1", "kind": "goal", "color": "terracotta", "pos": [3,0], "target": [1,2] },
+        { "id": "g2", "kind": "goal", "color": "blue", "pos": [0,0], "target": [2,3] },
+        { "id": "g3", "kind": "goal", "color": "plum", "pos": [4,5], "target": [4,4] },
+        { "id": "h1", "kind": "helper", "color": "ochre", "pos": [1,4] },
+        { "id": "h2", "kind": "helper", "color": "sage", "pos": [0,3] },
+        { "id": "h3", "kind": "helper", "color": "rose", "pos": [0,4] },
+        { "id": "h4", "kind": "helper", "color": "ochre", "pos": [3,1] },
+        { "id": "h5", "kind": "helper", "color": "sage", "pos": [5,3] }
+      ],
+      "minMoves": 9,
+      "difficulty": 5
+    },
+    {
+      "id": "gen-144",
+      "source": "generated",
+      "status": "approved",
+      "order": 142,
+      "pieces": [
+        { "id": "g1", "kind": "goal", "color": "terracotta", "pos": [4,1], "target": [3,2] },
+        { "id": "h1", "kind": "helper", "color": "ochre", "pos": [3,5] },
+        { "id": "h2", "kind": "helper", "color": "sage", "pos": [0,5] },
+        { "id": "h3", "kind": "helper", "color": "rose", "pos": [0,3] },
+        { "id": "h4", "kind": "helper", "color": "ochre", "pos": [4,3] },
+        { "id": "h5", "kind": "helper", "color": "sage", "pos": [1,0] }
+      ],
+      "minMoves": 9,
+      "difficulty": 5
+    },
+    {
+      "id": "gen-042",
+      "source": "generated",
+      "status": "approved",
+      "order": 143,
+      "pieces": [
+        { "id": "g1", "kind": "goal", "color": "terracotta", "pos": [2,1], "target": [2,3] },
+        { "id": "g2", "kind": "goal", "color": "blue", "pos": [5,0], "target": [2,4] },
+        { "id": "g3", "kind": "goal", "color": "plum", "pos": [3,4], "target": [1,3] },
+        { "id": "h1", "kind": "helper", "color": "ochre", "pos": [0,0] },
+        { "id": "h2", "kind": "helper", "color": "sage", "pos": [1,5] },
+        { "id": "h3", "kind": "helper", "color": "rose", "pos": [0,3] },
+        { "id": "h4", "kind": "helper", "color": "ochre", "pos": [4,4] }
+      ],
+      "minMoves": 9,
+      "difficulty": 5
+    },
+    {
+      "id": "gen-145",
+      "source": "generated",
+      "status": "approved",
+      "order": 144,
+      "pieces": [
+        { "id": "g1", "kind": "goal", "color": "terracotta", "pos": [4,3], "target": [2,3] },
+        { "id": "g2", "kind": "goal", "color": "blue", "pos": [1,0], "target": [3,2] },
+        { "id": "g3", "kind": "goal", "color": "plum", "pos": [0,3], "target": [1,2] },
+        { "id": "h1", "kind": "helper", "color": "ochre", "pos": [3,3] },
+        { "id": "h2", "kind": "helper", "color": "sage", "pos": [0,1] },
+        { "id": "h3", "kind": "helper", "color": "rose", "pos": [3,0] },
+        { "id": "h4", "kind": "helper", "color": "ochre", "pos": [2,1] },
+        { "id": "h5", "kind": "helper", "color": "sage", "pos": [1,4] }
+      ],
+      "minMoves": 9,
+      "difficulty": 5
+    },
+    {
+      "id": "gen-146",
+      "source": "generated",
+      "status": "approved",
+      "order": 145,
+      "pieces": [
+        { "id": "g1", "kind": "goal", "color": "terracotta", "pos": [0,0], "target": [3,2] },
+        { "id": "h1", "kind": "helper", "color": "ochre", "pos": [4,1] },
+        { "id": "h2", "kind": "helper", "color": "sage", "pos": [4,4] },
+        { "id": "h3", "kind": "helper", "color": "rose", "pos": [4,0] },
+        { "id": "h4", "kind": "helper", "color": "ochre", "pos": [5,0] },
+        { "id": "h5", "kind": "helper", "color": "sage", "pos": [1,5] }
+      ],
+      "minMoves": 9,
+      "difficulty": 5
+    },
+    {
+      "id": "gen-147",
+      "source": "generated",
+      "status": "approved",
+      "order": 146,
+      "pieces": [
+        { "id": "g1", "kind": "goal", "color": "terracotta", "pos": [0,5], "target": [2,4] },
+        { "id": "h1", "kind": "helper", "color": "ochre", "pos": [0,2] },
+        { "id": "h2", "kind": "helper", "color": "sage", "pos": [0,0] },
+        { "id": "h3", "kind": "helper", "color": "rose", "pos": [3,5] },
+        { "id": "h4", "kind": "helper", "color": "ochre", "pos": [5,5] },
+        { "id": "h5", "kind": "helper", "color": "sage", "pos": [5,3] }
+      ],
+      "minMoves": 9,
+      "difficulty": 5
+    },
+    {
+      "id": "gen-148",
+      "source": "generated",
+      "status": "approved",
+      "order": 147,
+      "pieces": [
+        { "id": "g1", "kind": "goal", "color": "terracotta", "pos": [1,0], "target": [3,3] },
+        { "id": "g2", "kind": "goal", "color": "blue", "pos": [1,5], "target": [4,3] },
+        { "id": "h1", "kind": "helper", "color": "ochre", "pos": [2,1] },
+        { "id": "h2", "kind": "helper", "color": "sage", "pos": [5,4] },
+        { "id": "h3", "kind": "helper", "color": "rose", "pos": [2,3] },
+        { "id": "h4", "kind": "helper", "color": "ochre", "pos": [4,1] },
+        { "id": "h5", "kind": "helper", "color": "sage", "pos": [0,3] }
+      ],
+      "minMoves": 9,
+      "difficulty": 5
+    },
+    {
+      "id": "gen-149",
+      "source": "generated",
+      "status": "approved",
+      "order": 148,
+      "pieces": [
+        { "id": "g1", "kind": "goal", "color": "terracotta", "pos": [4,1], "target": [3,3] },
+        { "id": "g2", "kind": "goal", "color": "blue", "pos": [1,0], "target": [3,2] },
+        { "id": "g3", "kind": "goal", "color": "plum", "pos": [1,3], "target": [2,2] },
+        { "id": "h1", "kind": "helper", "color": "ochre", "pos": [3,5] },
+        { "id": "h2", "kind": "helper", "color": "sage", "pos": [5,2] },
+        { "id": "h3", "kind": "helper", "color": "rose", "pos": [1,4] },
+        { "id": "h4", "kind": "helper", "color": "ochre", "pos": [3,0] },
+        { "id": "h5", "kind": "helper", "color": "rose", "pos": [5,3] }
+      ],
+      "minMoves": 13,
+      "difficulty": 5
+    },
+    {
+      "id": "gen-150",
+      "source": "generated",
+      "status": "approved",
+      "order": 149,
+      "pieces": [
+        { "id": "g1", "kind": "goal", "color": "terracotta", "pos": [3,1], "target": [3,3] },
+        { "id": "g2", "kind": "goal", "color": "blue", "pos": [1,0], "target": [2,2] },
+        { "id": "h1", "kind": "helper", "color": "ochre", "pos": [5,3] },
+        { "id": "h2", "kind": "helper", "color": "sage", "pos": [2,3] },
+        { "id": "h3", "kind": "helper", "color": "rose", "pos": [5,0] },
+        { "id": "h4", "kind": "helper", "color": "ochre", "pos": [1,4] },
+        { "id": "h5", "kind": "helper", "color": "sage", "pos": [0,1] }
+      ],
+      "minMoves": 9,
+      "difficulty": 5
+    },
+    {
+      "id": "gen-045",
+      "source": "generated",
+      "status": "approved",
+      "order": 150,
+      "pieces": [
+        { "id": "g1", "kind": "goal", "color": "terracotta", "pos": [5,3], "target": [3,3] },
+        { "id": "g2", "kind": "goal", "color": "blue", "pos": [1,5], "target": [2,4] },
+        { "id": "g3", "kind": "goal", "color": "plum", "pos": [3,0], "target": [3,1] },
+        { "id": "h1", "kind": "helper", "color": "ochre", "pos": [4,3] },
+        { "id": "h2", "kind": "helper", "color": "sage", "pos": [2,1] },
+        { "id": "h3", "kind": "helper", "color": "rose", "pos": [0,1] },
+        { "id": "h4", "kind": "helper", "color": "ochre", "pos": [1,1] },
+        { "id": "h5", "kind": "helper", "color": "sage", "pos": [5,5] }
+      ],
+      "minMoves": 10,
       "difficulty": 5
     }
   ]

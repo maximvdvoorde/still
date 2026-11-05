@@ -39,6 +39,7 @@ const sheetLayer = document.querySelector('.sheet-layer');
 const themeOptions = document.querySelectorAll('.theme-option');
 const themeColor = document.querySelector('meta[name="theme-color"]');
 const darkScheme = window.matchMedia('(prefers-color-scheme: dark)');
+const PHONE_SHORT_SIDE = 500;
 
 let levels = [];
 let levelIndex = 0;
@@ -51,6 +52,7 @@ let gesture = null;
 let pickedIndex = null;
 let openLayer = null;
 let theme = 'auto';
+let turn = 0;
 
 const reducedMotion = () => window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 const wait = (ms) => new Promise((resolve) => { setTimeout(resolve, ms); });
@@ -337,10 +339,29 @@ function chooseTheme(choice) {
   applyTheme();
 }
 
+// iOS has no way to lock the rotation of a web app, so a phone on its side gets
+// the page turned back and the game stays where it was. Tablets rotate freely.
+function applyTurn() {
+  const angle = window.orientation ?? window.screen.orientation?.angle ?? 0;
+  const sideways = angle === 90 || angle === -90 || angle === 270;
+  const phone = Math.min(window.innerWidth, window.innerHeight) < PHONE_SHORT_SIDE;
+  turn = sideways && phone ? (angle === 90 ? 90 : -90) : 0;
+  if (turn === 0) delete document.documentElement.dataset.turn;
+  else document.documentElement.dataset.turn = turn === 90 ? 'left' : 'right';
+}
+
+// A finger moves across the screen; the page may be turned against it.
+function toPage(x, y) {
+  if (turn === 90) return [-y, x];
+  if (turn === -90) return [y, -x];
+  return [x, y];
+}
+
 function pieceIndexAt(x, y) {
   const rect = boardSlot.getBoundingClientRect();
-  const row = Math.floor(((y - rect.top) / rect.height) * BOARD_SIZE);
-  const col = Math.floor(((x - rect.left) / rect.width) * BOARD_SIZE);
+  const [fromCentreX, fromCentreY] = toPage(x - rect.left - rect.width / 2, y - rect.top - rect.height / 2);
+  const row = Math.floor((fromCentreY / rect.height + 0.5) * BOARD_SIZE);
+  const col = Math.floor((fromCentreX / rect.width + 0.5) * BOARD_SIZE);
   if (row < 0 || row >= BOARD_SIZE || col < 0 || col >= BOARD_SIZE) return -1;
   return game.cells.indexOf(row * BOARD_SIZE + col);
 }
@@ -365,7 +386,7 @@ function onPointerDown(event) {
 
 function onPointerMove(event) {
   if (gesture === null || event.pointerId !== gesture.pointerId) return;
-  const direction = swipeDirection(event.clientX - gesture.x, event.clientY - gesture.y);
+  const direction = swipeDirection(...toPage(event.clientX - gesture.x, event.clientY - gesture.y));
   if (direction === null) return;
   const { index } = gesture;
   gesture = null;
@@ -438,6 +459,9 @@ function blockPageGestures() {
 async function start() {
   navigator.serviceWorker?.register('sw.js').catch(() => {});
   blockPageGestures();
+  applyTurn();
+  window.addEventListener('resize', applyTurn);
+  window.addEventListener('orientationchange', applyTurn);
   theme = loadTheme();
   applyTheme();
   darkScheme.addEventListener('change', applyTheme);
